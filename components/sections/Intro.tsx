@@ -37,7 +37,7 @@ export function Intro() {
             <p className="font-heading text-2xl font-semibold leading-tight lg:text-[32px]">{intro.bandTitle}</p>
             <p className="mt-2 max-w-[48ch] text-base lg:text-[17px]">{intro.bandBody}</p>
           </div>
-          <Button href="/contact" variant="onYellow">
+          <Button href="/contact/" variant="onYellow">
             {intro.bandCta}
           </Button>
         </div>

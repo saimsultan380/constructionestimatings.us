@@ -3,7 +3,7 @@ export const commercial = {
     title: "Commercial Estimating Services | Bid-Ready in 24 to 48 Hours",
     description:
       "Commercial estimating services in USA by CSI division with a second-estimator check. Upload plans, get a free quote & a bid-ready estimate in 24 to 48 hours",
-    path: "/commercial-estimating-service",
+    path: "/commercial-estimating-service/",
   },
   hero: {
     title: "Commercial Estimating Services That Get You Bid-Ready in 24 to 48 Hours",

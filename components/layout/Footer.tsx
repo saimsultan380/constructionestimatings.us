@@ -55,7 +55,7 @@ export function Footer() {
             ) : null}
             <p>{homepage.footer.coverage}</p>
             <p>
-              <Link href="/contact" className="font-semibold text-brand-strong hover:underline">
+              <Link href="/contact/" className="font-semibold text-brand-strong hover:underline">
                 {homepage.hero.secondaryCta}
               </Link>
             </p>

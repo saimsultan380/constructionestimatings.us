@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
+import { siteHost } from "./lib/site";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  trailingSlash: true,
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
@@ -11,6 +12,16 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
+  },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: `www.${siteHost}` }],
+        destination: `https://${siteHost}/:path*`,
+        permanent: true,
+      },
+    ];
   },
 };
 

@@ -504,22 +504,22 @@ export const homepage = {
   publishedServices: [
     {
       title: "Commercial Construction Estimating Services",
-      href: "/commercial-estimating-service",
+      href: "/commercial-estimating-service/",
     },
     {
       title: "Residential Cost Estimating Services",
-      href: "/residential-estimating-services",
+      href: "/residential-estimating-services/",
     },
     {
       title: "Painting Estimating Services",
-      href: "/painting-estimating-services",
+      href: "/painting-estimating-services/",
     },
   ],
   nav: [
     { href: "/", label: "Home" },
-    { href: "/commercial-estimating-service", label: "Services", menu: "services" },
+    { href: "/commercial-estimating-service/", label: "Services", menu: "services" },
     { href: "/#why-choose", label: "About" },
-    { href: "/contact", label: "Contact" },
+    { href: "/contact/", label: "Contact" },
   ],
   slots: {
     hero: {

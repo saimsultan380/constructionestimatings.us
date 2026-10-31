@@ -6,6 +6,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { MobileStickyBar } from "@/components/layout/MobileStickyBar";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { organizationJsonLd } from "@/lib/seo";
 import { metaDescription, phone, siteName, siteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -31,18 +32,17 @@ const inter = localFont({
 const title = "Construction Estimating Services | Bid-Ready Estimates in 24 to 48 Hours";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  // Canonicals are set per-page only — never inherit homepage "/" into child routes.
+  metadataBase: new URL(`${siteUrl}/`),
   title: {
     default: title,
     template: `%s | ${siteName}`,
   },
   description: metaDescription,
   applicationName: siteName,
-  alternates: { canonical: "/" },
   openGraph: {
     title,
     description: metaDescription,
-    url: siteUrl,
     siteName,
     locale: "en_US",
     type: "website",
@@ -59,24 +59,15 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
-  const organization: Record<string, unknown> = {
-    "@type": "Organization",
-    name: siteName,
-    url: siteUrl,
-    description: homepage.footer.description,
-    areaServed: "US",
-  };
+  const organization = organizationJsonLd(homepage.footer.description, phone || undefined);
   const service: Record<string, unknown> = {
     "@type": "ProfessionalService",
     name: siteName,
-    url: siteUrl,
+    url: `${siteUrl}/`,
     description: homepage.hero.body,
     areaServed: "US",
   };
-  if (phone) {
-    organization.telephone = phone;
-    service.telephone = phone;
-  }
+  if (phone) service.telephone = phone;
 
   return (
     <html lang="en" className={`${archivo.variable} ${inter.variable}`}>

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { BidFailures } from "@/components/sections/BidFailures";
 import { Deliverables } from "@/components/sections/Deliverables";
 import { Faq } from "@/components/sections/Faq";
@@ -16,10 +17,23 @@ import { TradeIndex } from "@/components/sections/TradeIndex";
 import { UsaCoverage } from "@/components/sections/UsaCoverage";
 import { WhoWeServe } from "@/components/sections/WhoWeServe";
 import { WhyChoose } from "@/components/sections/WhyChoose";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { pageMetadata } from "@/lib/seo";
+import { metaDescription } from "@/lib/site";
+
+const title = "Construction Estimating Services | Bid-Ready Estimates in 24 to 48 Hours";
+
+export const metadata: Metadata = pageMetadata({
+  title,
+  description: metaDescription,
+  path: "/",
+  absoluteTitle: true,
+});
 
 export default function HomePage() {
   return (
     <>
+      <Breadcrumbs items={[{ name: "Home", path: "/" }]} />
       <Hero />
       <Intro />
       <BidFailures />

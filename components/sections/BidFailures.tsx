@@ -32,7 +32,7 @@ export function BidFailures() {
         <div>
           <h3 className="font-heading text-2xl font-semibold">{failures.solutionTitle}</h3>
           <p className="mt-3 max-w-[62ch] text-ink-soft">{failures.solutionBody}</p>
-          <Button href="/contact" className="mt-6">
+          <Button href="/contact/" className="mt-6">
             {failures.solutionCta}
           </Button>
         </div>

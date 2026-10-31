@@ -1,46 +1,43 @@
 import type { Metadata } from "next";
 import { painting } from "@/content/painting";
 import { PaintingView } from "@/components/sections/painting/PaintingView";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { siteName, siteUrl } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
+import { absoluteUrl, siteName } from "@/lib/site";
 
-const canonical = `${siteUrl}${painting.seo.path}`;
+const path = painting.seo.path;
 
-export const metadata: Metadata = {
-  title: { absolute: painting.seo.title },
+export const metadata: Metadata = pageMetadata({
+  title: painting.seo.title,
   description: painting.seo.description,
-  alternates: { canonical: painting.seo.path },
-  openGraph: {
-    title: painting.seo.title,
-    description: painting.seo.description,
-    url: canonical,
-    siteName,
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary",
-    title: painting.seo.title,
-    description: painting.seo.description,
-  },
-};
+  path,
+  absoluteTitle: true,
+});
 
 export default function PaintingEstimatingPage() {
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Services", path: "/commercial-estimating-service/" },
+          { name: "Painting Estimating", path },
+        ]}
+      />
       <JsonLd
         data={{
           "@context": "https://schema.org",
           "@type": "Service",
           name: "Painting Estimating Services",
           serviceType: "Painting construction estimating",
-          url: canonical,
+          url: absoluteUrl(path),
           description: painting.seo.description,
           areaServed: "US",
           provider: {
             "@type": "Organization",
             name: siteName,
-            url: siteUrl,
+            url: absoluteUrl("/"),
           },
         }}
       />

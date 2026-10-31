@@ -2,41 +2,42 @@ import type { Metadata } from "next";
 import { homepage } from "@/content/homepage";
 import { UploadForm } from "@/components/sections/UploadForm";
 import { EmailLink, PhoneLink } from "@/components/ui/ContactLinks";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { email, phone, siteName, siteUrl } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
+import { absoluteUrl, email, phone, siteName } from "@/lib/site";
 
 const title = "Contact";
-const description = homepage.footer.description;
-const canonical = `${siteUrl}/contact`;
+const description =
+  "Upload plans for a free construction estimating quote. NDA on request. Reach Construction Estimatings for bid-ready takeoffs in 24 to 48 hours.";
+const path = "/contact/";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title,
   description,
-  alternates: { canonical: "/contact" },
-  openGraph: {
-    title: `${title} | ${siteName}`,
-    description,
-    url: canonical,
-    siteName,
-    locale: "en_US",
-    type: "website",
-  },
-};
+  path,
+});
 
 export default function ContactPage() {
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Contact", path },
+        ]}
+      />
       <JsonLd
         data={{
           "@context": "https://schema.org",
           "@type": "ContactPage",
           name: `${title} | ${siteName}`,
-          url: canonical,
+          url: absoluteUrl(path),
           description,
           about: {
             "@type": "Organization",
             name: siteName,
-            url: siteUrl,
+            url: absoluteUrl("/"),
           },
         }}
       />

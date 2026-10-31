@@ -12,7 +12,7 @@ export function Pricing() {
           <h2 className="font-heading text-[28px] font-semibold leading-[1.15] lg:text-[40px]">{pricing.title}</h2>
           <p className="mt-4 max-w-[48ch] text-ink-soft lg:text-[17px]">{pricing.intro}</p>
           <p className="mt-4 max-w-[48ch] text-ink">{pricing.offer}</p>
-          <Button href="/contact" className="mt-6">
+          <Button href="/contact/" className="mt-6">
             {pricing.cta}
           </Button>
         </div>

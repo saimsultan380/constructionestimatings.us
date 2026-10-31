@@ -1,46 +1,43 @@
 import type { Metadata } from "next";
 import { residential } from "@/content/residential";
 import { ResidentialView } from "@/components/sections/residential/ResidentialView";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { siteName, siteUrl } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
+import { absoluteUrl, siteName } from "@/lib/site";
 
-const canonical = `${siteUrl}${residential.seo.path}`;
+const path = residential.seo.path;
 
-export const metadata: Metadata = {
-  title: { absolute: residential.seo.title },
+export const metadata: Metadata = pageMetadata({
+  title: residential.seo.title,
   description: residential.seo.description,
-  alternates: { canonical: residential.seo.path },
-  openGraph: {
-    title: residential.seo.title,
-    description: residential.seo.description,
-    url: canonical,
-    siteName,
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary",
-    title: residential.seo.title,
-    description: residential.seo.description,
-  },
-};
+  path,
+  absoluteTitle: true,
+});
 
 export default function ResidentialEstimatingPage() {
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Services", path: "/commercial-estimating-service/" },
+          { name: "Residential Estimating", path },
+        ]}
+      />
       <JsonLd
         data={{
           "@context": "https://schema.org",
           "@type": "Service",
           name: "Residential Estimating Services",
           serviceType: "Residential construction estimating",
-          url: canonical,
+          url: absoluteUrl(path),
           description: residential.seo.description,
           areaServed: "US",
           provider: {
             "@type": "Organization",
             name: siteName,
-            url: siteUrl,
+            url: absoluteUrl("/"),
           },
         }}
       />

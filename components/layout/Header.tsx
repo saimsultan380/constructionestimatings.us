@@ -158,7 +158,7 @@ export function Header() {
               {phone}
             </a>
           ) : null}
-          <Button href="/contact">{homepage.hero.secondaryCta}</Button>
+          <Button href="/contact/">{homepage.hero.secondaryCta}</Button>
         </div>
         <Dialog.Root open={drawer} onOpenChange={setDrawer}>
           <Dialog.Trigger asChild>
@@ -199,7 +199,7 @@ export function Header() {
                     {phone}
                   </a>
                 ) : null}
-                <Button href="/contact" onClick={() => setDrawer(false)}>
+                <Button href="/contact/" onClick={() => setDrawer(false)}>
                   {homepage.hero.secondaryCta}
                 </Button>
               </div>

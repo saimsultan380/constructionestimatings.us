@@ -3,7 +3,7 @@ export const painting = {
     title: "Painting Estimating Services | Surface-by-Surface Takeoffs",
     description:
       "Painting estimating services with paint takeoffs by surface, coat & prep. Upload plans, get a free quote, and a bid-ready painting estimate in 24 to 48 hours.",
-    path: "/painting-estimating-services",
+    path: "/painting-estimating-services/",
   },
   hero: {
     title: "Painting Estimating Services That Measure Every Surface Before You Bid",

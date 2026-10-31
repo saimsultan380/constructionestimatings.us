@@ -38,7 +38,7 @@ export function Faq() {
           ) : null}
           <div className="mt-4 max-w-sm rounded-xl border border-line bg-surface p-4 shadow-[var(--shadow)]">
             {phone ? <PhoneLink /> : null}
-            <Button href="/contact" className={phone ? "mt-4 w-full" : "w-full"}>
+            <Button href="/contact/" className={phone ? "mt-4 w-full" : "w-full"}>
               {hero.primaryCta}
             </Button>
           </div>

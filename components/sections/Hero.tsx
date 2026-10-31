@@ -22,8 +22,8 @@ export function Hero() {
           </p>
           <p className="mt-4 max-w-[68ch] text-base leading-[1.6] text-ink-soft lg:text-[17px]">{hero.body}</p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
-            <Button href="/contact">{hero.primaryCta}</Button>
-            <Button href="/contact" variant="secondary">
+            <Button href="/contact/">{hero.primaryCta}</Button>
+            <Button href="/contact/" variant="secondary">
               {hero.secondaryCta}
             </Button>
             <PhoneLink prefix={hero.callLabel} className="inline-flex h-12 items-center px-2" />

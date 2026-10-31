@@ -28,10 +28,10 @@ export function Services() {
         {services.items.map((item, index) => {
           const href =
             item.key === "commercial"
-              ? "/commercial-estimating-service"
+              ? "/commercial-estimating-service/"
               : item.key === "residential"
-                ? "/residential-estimating-services"
-                : "/contact";
+                ? "/residential-estimating-services/"
+                : "/contact/";
           return (
             <article key={item.key} className="flex h-full flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-[var(--shadow)]">
               <div className="relative aspect-[16/10] overflow-hidden bg-surface-tint">

@@ -3,7 +3,7 @@ export const residential = {
     title: "Residential Estimating Services | Itemized Home Estimates",
     description:
       "Residential estimating services for builders and remodelers. Upload plans for a trade-by-trade takeoff & itemized estimate in 24 to 48 hours. Free quote.",
-    path: "/residential-estimating-services",
+    path: "/residential-estimating-services/",
   },
   hero: {
     title: "Residential Estimating Services for Builders and Remodelers Who Quote Fast",
