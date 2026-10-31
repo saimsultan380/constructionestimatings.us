@@ -1,0 +1,19 @@
+:root {
+  --brand: #387abc;
+  --brand-strong: #2c6aa8;
+  --accent: #ffc20e;
+  --accent-strong: #e6ac00;
+  --ink: #303030;
+  --ink-soft: #5a5f66;
+  --surface: #ffffff;
+  --surface-tint: #f4f7fb;
+  --brand-tint: #e8f0f9;
+  --line: #d9e0e8;
+  --success: #2e7d4f;
+  --danger: #b3261e;
+  --grid-line: #e3ebf4;
+  --radius: 0.5rem;
+  --radius-lg: 0.75rem;
+  --shadow: 0 1px 2px rgba(48, 48, 48, 0.06);
+  --shadow-soft: 0 8px 24px rgba(48, 48, 48, 0.06);
+}
