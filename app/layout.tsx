@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Archivo, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import Script from "next/script";
 import { homepage } from "@/content/homepage";
 import { Footer } from "@/components/layout/Footer";
@@ -11,16 +11,19 @@ import "./globals.css";
 
 const GA_MEASUREMENT_ID = "G-X5MF3PLSCY";
 
-const archivo = Archivo({
-  subsets: ["latin"],
-  weight: ["600", "700"],
+// Self-hosted latin variable fonts — avoids Turbopack next/font/google fetch failures on Vercel.
+const archivo = localFont({
+  src: "./fonts/archivo-latin.woff2",
+  weight: "600 700",
+  style: "normal",
   variable: "--font-archivo",
   display: "swap",
 });
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+const inter = localFont({
+  src: "./fonts/inter-latin.woff2",
+  weight: "400 600",
+  style: "normal",
   variable: "--font-inter",
   display: "swap",
 });
