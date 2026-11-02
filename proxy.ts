@@ -1,20 +1,23 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const SITE_HOST = "constructionestimatings.us";
+const SITE_HOST = "constructionestimations.us";
+const LEGACY_HOSTS = new Set(["constructionestimatings.us"]);
 
 /**
- * Force a single host: https + non-www.
- * Trailing-slash normalization is handled by next.config trailingSlash: true.
+ * Force a single host: https://constructionestimations.us (non-www).
+ * Also 301 legacy/typo hosts. Trailing slash is handled by next.config.
  */
 export function proxy(request: NextRequest) {
   const hostHeader = request.headers.get("host") || "";
   const hostname = hostHeader.split(":")[0]?.toLowerCase() || "";
+  const apex = hostname.replace(/^www\./, "");
+  const needsHostFix = hostname.startsWith("www.") || LEGACY_HOSTS.has(apex);
 
-  if (hostname.startsWith("www.")) {
+  if (needsHostFix) {
     const url = request.nextUrl.clone();
     url.protocol = "https:";
-    url.hostname = hostname.replace(/^www\./, "") || SITE_HOST;
+    url.hostname = SITE_HOST;
     url.port = "";
     return NextResponse.redirect(url, 301);
   }

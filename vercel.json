@@ -2,8 +2,20 @@
   "redirects": [
     {
       "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.constructionestimations.us" }],
+      "destination": "https://constructionestimations.us/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "constructionestimatings.us" }],
+      "destination": "https://constructionestimations.us/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
       "has": [{ "type": "host", "value": "www.constructionestimatings.us" }],
-      "destination": "https://constructionestimatings.us/:path*",
+      "destination": "https://constructionestimations.us/:path*",
       "permanent": true
     }
   ]

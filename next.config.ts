@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-import { siteHost } from "./lib/site";
+import { legacyHosts, siteHost } from "./lib/site";
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
@@ -21,6 +21,20 @@ const nextConfig: NextConfig = {
         destination: `https://${siteHost}/:path*`,
         permanent: true,
       },
+      ...legacyHosts.flatMap((host) => [
+        {
+          source: "/:path*",
+          has: [{ type: "host" as const, value: host }],
+          destination: `https://${siteHost}/:path*`,
+          permanent: true,
+        },
+        {
+          source: "/:path*",
+          has: [{ type: "host" as const, value: `www.${host}` }],
+          destination: `https://${siteHost}/:path*`,
+          permanent: true,
+        },
+      ]),
     ];
   },
 };
