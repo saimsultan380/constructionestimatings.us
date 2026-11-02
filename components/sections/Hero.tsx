@@ -1,63 +1,66 @@
+import Image from "next/image";
 import { CalendarBlank, MapPin, ShieldCheck } from "@phosphor-icons/react/dist/ssr";
 import { homepage } from "@/content/homepage";
 import { Button } from "@/components/ui/Button";
 import { PhoneLink } from "@/components/ui/ContactLinks";
-import { FramedImage } from "@/components/ui/FramedImage";
 import { FadeIn } from "@/components/ui/FadeIn";
+import { publicImage } from "@/lib/images";
 
 const icons = [CalendarBlank, MapPin, ShieldCheck];
 
 export function Hero() {
   const { hero, slots } = homepage;
+  const src = publicImage(slots.hero.section, slots.hero.id);
 
   return (
-    <section className="border-b border-line bg-brand-tint py-14 md:py-[72px] lg:py-24">
-      <div className="mx-auto grid w-full max-w-[1240px] items-center gap-10 px-4 min-[480px]:px-6 lg:grid-cols-[55fr_45fr]">
-        <FadeIn>
-          <div className="section-rule mb-5" aria-hidden="true" />
-          <h1 className="max-w-[18ch] font-heading text-[36px] font-semibold leading-[1.15] text-ink lg:text-[56px]">
+    <section className="relative isolate overflow-hidden">
+      {src ? (
+        <Image
+          src={src}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+      ) : (
+        <div className="absolute inset-0 bg-brand" aria-hidden="true" />
+      )}
+      <div className="absolute inset-0 bg-black/70" aria-hidden="true" />
+      <div className="relative mx-auto flex min-h-[70vh] w-full max-w-[1240px] flex-col items-center justify-center px-4 py-20 text-center min-[480px]:px-6 md:py-28 lg:min-h-[78vh] lg:py-32">
+        <FadeIn className="flex w-full max-w-[720px] flex-col items-center">
+          <h1 className="font-heading text-[36px] font-semibold leading-[1.15] text-surface lg:text-[56px]">
             {hero.title}
           </h1>
-          <p className="mt-5 max-w-[42ch] font-heading text-xl font-semibold leading-snug text-brand-strong lg:text-2xl">
+          <p className="mt-5 max-w-[36ch] font-heading text-xl font-semibold leading-snug text-accent lg:text-2xl">
             {hero.subhead}
           </p>
-          <p className="mt-4 max-w-[68ch] text-base leading-[1.6] text-ink-soft lg:text-[17px]">{hero.body}</p>
-          <div className="mt-6 flex flex-wrap items-center gap-3">
+          <p className="mt-4 max-w-[58ch] text-base leading-[1.6] text-surface/90 lg:text-[17px]">{hero.body}</p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <Button href="/contact/">{hero.primaryCta}</Button>
-            <Button href="/contact/" variant="secondary">
+            <Button href="/contact/" variant="onBlue">
               {hero.secondaryCta}
             </Button>
-            <PhoneLink prefix={hero.callLabel} className="inline-flex h-12 items-center px-2" />
+            <PhoneLink
+              prefix={hero.callLabel}
+              className="inline-flex h-12 items-center px-2 font-semibold text-surface hover:text-accent"
+            />
           </div>
-          <p className="mt-3 text-sm text-ink-soft">{hero.note}</p>
-          <ul className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <p className="mt-4 text-sm text-surface/80">{hero.note}</p>
+          <ul className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap sm:justify-center">
             {hero.trust.map((item, index) => {
               const Icon = icons[index];
               return (
                 <li
                   key={item}
-                  className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-3 py-2 shadow-[var(--shadow)]"
+                  className="inline-flex items-center gap-2 rounded-lg bg-surface/10 px-3 py-2 text-surface"
                 >
-                  <span className="inline-flex h-7 w-7 items-center justify-center rounded-md bg-accent text-ink">
-                    <Icon size={16} aria-hidden="true" />
-                  </span>
-                  <span className="text-sm font-semibold text-ink">{item}</span>
+                  <Icon size={18} aria-hidden="true" className="text-accent" />
+                  <span className="text-sm font-medium">{item}</span>
                 </li>
               );
             })}
           </ul>
-        </FadeIn>
-        <FadeIn delay={0.06}>
-          <div className="rounded-xl border-4 border-accent bg-surface p-2 shadow-[var(--shadow-soft)]">
-            <FramedImage
-              section={slots.hero.section}
-              slotId={slots.hero.id}
-              brief={slots.hero.brief}
-              ratio={slots.hero.ratio}
-              priority
-              sizes="(min-width: 1024px) 520px, 100vw"
-            />
-          </div>
         </FadeIn>
       </div>
     </section>

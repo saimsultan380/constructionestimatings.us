@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { homepage } from "@/content/homepage";
+import { Logo } from "@/components/layout/Logo";
 import { email, phone } from "@/lib/site";
 import { EmailLink, PhoneLink } from "@/components/ui/ContactLinks";
 
@@ -11,22 +12,7 @@ export function Footer() {
       <div className="mx-auto grid w-full max-w-[1240px] gap-10 px-4 py-14 min-[480px]:px-6 md:grid-cols-2 lg:grid-cols-5">
         <div className="lg:col-span-2">
           <Link href="/" aria-label="Construction Estimatings home" className="inline-block">
-            <span className="inline-flex items-center gap-2.5">
-              <span
-                aria-hidden="true"
-                className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent font-heading text-base font-bold leading-none tracking-tight text-ink"
-              >
-                CE
-              </span>
-              <span className="flex flex-col leading-none">
-                <span className="font-heading text-[11px] font-semibold uppercase tracking-[0.16em] text-accent">
-                  Construction
-                </span>
-                <span className="mt-1 font-heading text-[17px] font-bold tracking-tight text-surface">
-                  Estimatings
-                </span>
-              </span>
-            </span>
+            <Logo tone="inverse" />
           </Link>
           <p className="mt-4 max-w-[36ch] text-sm leading-6 text-surface/90">{homepage.footer.description}</p>
         </div>

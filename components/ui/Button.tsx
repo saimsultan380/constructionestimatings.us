@@ -10,8 +10,8 @@ const variants: Record<Variant, string> = {
     "border-[1.5px] border-brand bg-surface text-brand-strong hover:bg-brand-tint",
   onYellow: "border border-ink bg-ink text-surface hover:bg-brand-strong hover:border-brand-strong",
   onBlue:
-    "border-[1.5px] border-accent bg-accent text-ink hover:bg-accent-strong",
-}
+    "border-[1.5px] border-surface bg-transparent text-surface hover:bg-surface hover:text-ink",
+};
 
 type Props = {
   children: React.ReactNode;

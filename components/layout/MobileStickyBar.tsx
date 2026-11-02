@@ -23,7 +23,7 @@ export function MobileStickyBar() {
   if (hidden) return null;
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t-4 border-accent bg-brand-tint p-3 shadow-[var(--shadow-soft)] lg:hidden">
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-surface p-3 shadow-[var(--shadow-soft)] lg:hidden">
       <div className={phone ? "grid grid-cols-[1fr_auto] gap-2" : "grid"}>
         <Button href="/contact/">{homepage.hero.secondaryCta}</Button>
         {phone ? (

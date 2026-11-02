@@ -56,21 +56,6 @@ body {
   color: var(--ink);
 }
 
-.section-rule {
-  width: 3.5rem;
-  height: 4px;
-  border-radius: 999px;
-  background: var(--accent);
-}
-
-.card-brand {
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--brand);
-  border-radius: var(--radius-xl);
-  background: var(--surface);
-  box-shadow: var(--shadow);
-}
-
 :focus-visible {
   outline: 3px solid var(--brand);
   outline-offset: 2px;
@@ -82,12 +67,7 @@ body {
 
 .us-state {
   outline: none;
-}
-
-.us-state:hover,
-.us-state:focus {
-  fill: var(--brand);
-  stroke: var(--brand-strong);
+  cursor: pointer;
 }
 
 .blueprint-grid {

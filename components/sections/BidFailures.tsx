@@ -18,7 +18,7 @@ export function BidFailures() {
       <div className="mt-10 grid gap-4 lg:grid-cols-3">
         {failures.items.map((item, index) => (
           <FadeIn key={item.title} delay={index * 0.06}>
-            <article className="card-brand h-full p-5">
+            <article className="h-full rounded-xl border border-line bg-surface p-5 shadow-[var(--shadow)]">
               <p className="font-heading text-sm font-semibold tabular text-brand-strong">
                 {String(index + 1).padStart(2, "0")}
               </p>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { homepage } from "@/content/homepage";
 import { Button } from "@/components/ui/Button";
 import { phone, phoneHref } from "@/lib/site";
@@ -6,9 +7,16 @@ export function FinalCta() {
   const { finalCta } = homepage;
 
   return (
-    <section className="blueprint-grid-brand text-surface">
-      <div className="mx-auto w-full max-w-[1240px] px-4 py-14 min-[480px]:px-6 md:py-[72px] lg:py-24">
-        <div className="mb-5 h-1 w-14 rounded-full bg-accent" aria-hidden="true" />
+    <section className="relative isolate overflow-hidden text-surface">
+      <Image
+        src="/images/serve/serve-main.webp"
+        alt=""
+        fill
+        sizes="100vw"
+        className="object-cover"
+      />
+      <div className="absolute inset-0 bg-black/70" aria-hidden="true" />
+      <div className="relative mx-auto w-full max-w-[1240px] px-4 py-14 min-[480px]:px-6 md:py-[72px] lg:py-24">
         <h2 className="max-w-[16ch] font-heading text-[28px] font-semibold leading-[1.15] text-surface lg:text-[40px]">
           {finalCta.title}
         </h2>

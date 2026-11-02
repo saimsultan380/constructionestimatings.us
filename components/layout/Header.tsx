@@ -95,9 +95,15 @@ export function Header() {
         scrolled && "shadow-[var(--shadow)]",
       )}
     >
-      <div className="h-1 bg-accent lg:hidden" aria-hidden="true" />
-      <div className="hidden h-10 bg-brand lg:block">
-        <div className="mx-auto grid h-full w-full max-w-[1240px] grid-cols-3 items-center px-6 text-sm text-surface">
+      <div className={cn("h-1 bg-accent lg:hidden", scrolled && "hidden")} aria-hidden="true" />
+      <div
+        className={cn(
+          "hidden overflow-hidden bg-brand transition-[height] duration-200 lg:block",
+          scrolled ? "h-0" : "h-10",
+        )}
+        aria-hidden={scrolled}
+      >
+        <div className="mx-auto grid h-10 w-full max-w-[1240px] grid-cols-3 items-center px-6 text-sm text-surface">
           <p className="font-medium">{homepage.topBar.nda}</p>
           <p className="text-center font-semibold text-accent">{homepage.topBar.quote}</p>
           <div className="text-right">
