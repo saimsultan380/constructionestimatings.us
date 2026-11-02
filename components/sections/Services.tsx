@@ -31,9 +31,11 @@ export function Services() {
               ? "/commercial-estimating-service/"
               : item.key === "residential"
                 ? "/residential-estimating-services/"
-                : "/contact/";
+                : item.key === "industrial"
+                  ? "/industrial-estimating-services/"
+                  : "/contact/";
           return (
-            <article key={item.key} className="flex h-full flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-[var(--shadow)]">
+            <article key={item.key} className="flex h-full flex-col overflow-hidden rounded-xl border border-line border-t-4 border-t-brand bg-surface shadow-[var(--shadow)]">
               <div className="relative aspect-[16/10] overflow-hidden bg-surface-tint">
                 <div className="absolute inset-0">
                   <SlotVisual

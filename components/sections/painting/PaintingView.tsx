@@ -24,7 +24,7 @@ export function PaintingView() {
   return (
     <>
       <JsonLd data={faqSchema} />
-      <section className="bg-surface py-14 md:py-[72px] lg:py-24">
+      <section className="border-b border-line bg-brand-tint py-14 md:py-[72px] lg:py-24">
         <div className="mx-auto grid w-full max-w-[1240px] items-start gap-10 px-4 min-[480px]:px-6 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
           <div>
             <h1 className="font-heading text-[36px] font-semibold leading-[1.15] text-ink lg:text-[52px]">

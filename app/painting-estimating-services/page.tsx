@@ -21,7 +21,7 @@ export default function PaintingEstimatingPage() {
       <Breadcrumbs
         items={[
           { name: "Home", path: "/" },
-          { name: "Services", path: "/commercial-estimating-service/" },
+          { name: "Trades", path: "/concrete-estimating-services/" },
           { name: "Painting Estimating", path },
         ]}
       />

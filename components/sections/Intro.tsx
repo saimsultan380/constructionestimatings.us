@@ -20,6 +20,7 @@ export function Intro() {
             />
           </FadeIn>
           <FadeIn delay={0.06}>
+            <div className="section-rule mb-5" aria-hidden="true" />
             <h2 className="max-w-[20ch] font-heading text-[28px] font-semibold leading-[1.15] text-ink lg:text-[40px]">
               {intro.title}
             </h2>

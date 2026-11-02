@@ -8,6 +8,7 @@ export function FinalCta() {
   return (
     <section className="blueprint-grid-brand text-surface">
       <div className="mx-auto w-full max-w-[1240px] px-4 py-14 min-[480px]:px-6 md:py-[72px] lg:py-24">
+        <div className="mb-5 h-1 w-14 rounded-full bg-accent" aria-hidden="true" />
         <h2 className="max-w-[16ch] font-heading text-[28px] font-semibold leading-[1.15] text-surface lg:text-[40px]">
           {finalCta.title}
         </h2>

@@ -11,6 +11,7 @@
   --color-surface: var(--surface);
   --color-surface-tint: var(--surface-tint);
   --color-brand-tint: var(--brand-tint);
+  --color-accent-tint: var(--accent-tint);
   --color-line: var(--line);
   --color-success: var(--success);
   --color-danger: var(--danger);
@@ -51,8 +52,23 @@ body {
 }
 
 ::selection {
-  background: var(--brand-tint);
+  background: var(--accent);
   color: var(--ink);
+}
+
+.section-rule {
+  width: 3.5rem;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.card-brand {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--brand);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+  box-shadow: var(--shadow);
 }
 
 :focus-visible {

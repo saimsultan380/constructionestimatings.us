@@ -11,6 +11,8 @@ import { cn } from "@/lib/cn";
 import { Logo } from "@/components/layout/Logo";
 import { Button } from "@/components/ui/Button";
 
+type MenuKey = "services" | "trades";
+
 function MenuPanel({
   label,
   items,
@@ -21,27 +23,48 @@ function MenuPanel({
   return (
     <div
       id={`${label.toLowerCase()}-menu`}
-      className="absolute left-0 top-full z-50 w-[360px] rounded-xl border border-line bg-surface p-6 shadow-[var(--shadow-soft)]"
+      className="absolute left-0 top-full z-50 w-[360px] overflow-hidden rounded-xl border border-line bg-surface shadow-[var(--shadow-soft)]"
     >
-      <p className="mb-4 text-sm font-semibold text-ink-soft">{label}</p>
-      <ul className="grid gap-y-2">
+      <div className="border-b border-line bg-brand px-6 py-3">
+        <p className="text-sm font-semibold text-surface">{label}</p>
+      </div>
+      <div className="p-5">
+      <ul className="grid gap-y-1">
         {items.map((item) => (
           <li key={item.title}>
-            <Link href={item.href} className="block py-1 text-sm text-ink hover:text-brand-strong hover:underline">
+            <Link
+              href={item.href}
+              className="block rounded-lg px-2 py-2 text-sm font-medium text-ink hover:bg-brand-tint hover:text-brand-strong"
+            >
               {item.title}
             </Link>
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
+}
+
+function menuItemsFor(menu: MenuKey) {
+  if (menu === "trades") {
+    return homepage.publishedTrades.map((item) => ({
+      title: item.title,
+      href: item.href,
+    }));
+  }
+  return homepage.publishedServices.map((item) => ({
+    title: item.title,
+    href: item.href,
+  }));
 }
 
 export function Header() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
-  const [openMenu, setOpenMenu] = useState<"services" | null>(null);
+  const [openMenu, setOpenMenu] = useState<MenuKey | null>(null);
   const [drawer, setDrawer] = useState(false);
+  const [drawerSection, setDrawerSection] = useState<MenuKey | null>(null);
   const menuId = useId();
 
   useEffect(() => {
@@ -62,6 +85,7 @@ export function Header() {
   const closeMenus = () => {
     setOpenMenu(null);
     setDrawer(false);
+    setDrawerSection(null);
   };
 
   return (
@@ -71,13 +95,14 @@ export function Header() {
         scrolled && "shadow-[var(--shadow)]",
       )}
     >
-      <div className="hidden h-10 bg-brand-tint lg:block">
-        <div className="mx-auto grid h-full w-full max-w-[1240px] grid-cols-3 items-center px-6 text-sm text-ink">
-          <p>{homepage.topBar.nda}</p>
-          <p className="text-center">{homepage.topBar.quote}</p>
+      <div className="h-1 bg-accent lg:hidden" aria-hidden="true" />
+      <div className="hidden h-10 bg-brand lg:block">
+        <div className="mx-auto grid h-full w-full max-w-[1240px] grid-cols-3 items-center px-6 text-sm text-surface">
+          <p className="font-medium">{homepage.topBar.nda}</p>
+          <p className="text-center font-semibold text-accent">{homepage.topBar.quote}</p>
           <div className="text-right">
             {phone ? (
-              <a href={phoneHref(phone)} className="inline-flex items-center gap-2 font-semibold text-brand-strong hover:underline">
+              <a href={phoneHref(phone)} className="inline-flex items-center gap-2 font-semibold text-surface hover:text-accent hover:underline">
                 <Phone size={16} aria-hidden="true" />
                 {phone}
               </a>
@@ -91,13 +116,10 @@ export function Header() {
         </Link>
         <nav aria-label="Primary" className="hidden items-center gap-5 lg:flex">
           {homepage.nav.map((item) => {
-            const current = item.href === "/" ? pathname === "/" : pathname === item.href;
-            const menu = "menu" in item ? item.menu : undefined;
-            if (menu === "services") {
-              const items = homepage.publishedServices.map((service) => ({
-                title: service.title,
-                href: service.href,
-              }));
+            const current = item.href === "/" ? pathname === "/" : pathname === item.href || pathname.startsWith(item.href);
+            const menu = "menu" in item ? (item.menu as MenuKey | undefined) : undefined;
+            if (menu === "services" || menu === "trades") {
+              const items = menuItemsFor(menu);
               const expanded = openMenu === menu;
               return (
                 <div
@@ -115,7 +137,10 @@ export function Header() {
                   <span className="inline-flex items-center gap-1">
                     <Link
                       href={item.href}
-                      className="text-sm font-medium text-ink hover:underline"
+                      className={cn(
+                        "text-sm font-semibold hover:text-brand-strong",
+                        current ? "text-brand-strong" : "text-ink",
+                      )}
                       aria-current={current ? "page" : undefined}
                     >
                       {item.label}
@@ -143,7 +168,10 @@ export function Header() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="text-sm font-medium text-ink hover:underline"
+                className={cn(
+                  "text-sm font-semibold hover:text-brand-strong",
+                  current ? "text-brand-strong" : "text-ink",
+                )}
                 aria-current={current ? "page" : undefined}
               >
                 {item.label}
@@ -172,7 +200,7 @@ export function Header() {
           </Dialog.Trigger>
           <Dialog.Portal>
             <Dialog.Overlay className="fixed inset-0 z-50 bg-ink/40 lg:hidden" />
-            <Dialog.Content className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col bg-surface p-6 lg:hidden">
+            <Dialog.Content className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col overflow-y-auto bg-surface p-6 lg:hidden">
               <div className="flex items-center justify-between">
                 <Dialog.Title className="font-heading text-lg font-semibold">Menu</Dialog.Title>
                 <Dialog.Description className="sr-only">Primary navigation</Dialog.Description>
@@ -181,16 +209,51 @@ export function Header() {
                 </Dialog.Close>
               </div>
               <nav aria-label="Mobile" className="mt-8 flex flex-col">
-                {homepage.nav.map((item) => (
-                  <Link
-                    key={item.label}
-                    href={item.href}
-                    onClick={() => setDrawer(false)}
-                    className="border-b border-line py-4 text-lg font-medium text-ink"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
+                {homepage.nav.map((item) => {
+                  const menu = "menu" in item ? (item.menu as MenuKey | undefined) : undefined;
+                  if (menu === "services" || menu === "trades") {
+                    const open = drawerSection === menu;
+                    const items = menuItemsFor(menu);
+                    return (
+                      <div key={item.label} className="border-b border-line">
+                        <button
+                          type="button"
+                          className="flex w-full items-center justify-between py-4 text-left text-lg font-medium text-ink"
+                          aria-expanded={open}
+                          onClick={() => setDrawerSection((value) => (value === menu ? null : menu))}
+                        >
+                          {item.label}
+                          <CaretDown size={16} aria-hidden="true" className={cn(open && "rotate-180")} />
+                        </button>
+                        {open ? (
+                          <ul className="pb-4 pl-2">
+                            {items.map((sub) => (
+                              <li key={sub.href}>
+                                <Link
+                                  href={sub.href}
+                                  onClick={closeMenus}
+                                  className="block py-2 text-base text-ink-soft hover:text-brand-strong"
+                                >
+                                  {sub.title}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        ) : null}
+                      </div>
+                    );
+                  }
+                  return (
+                    <Link
+                      key={item.label}
+                      href={item.href}
+                      onClick={closeMenus}
+                      className="border-b border-line py-4 text-lg font-medium text-ink"
+                    >
+                      {item.label}
+                    </Link>
+                  );
+                })}
               </nav>
               <div className="mt-6 flex flex-col gap-3">
                 {phone ? (
@@ -199,7 +262,7 @@ export function Header() {
                     {phone}
                   </a>
                 ) : null}
-                <Button href="/contact/" onClick={() => setDrawer(false)}>
+                <Button href="/contact/" onClick={closeMenus}>
                   {homepage.hero.secondaryCta}
                 </Button>
               </div>

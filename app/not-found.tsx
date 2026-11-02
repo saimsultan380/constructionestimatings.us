@@ -26,7 +26,7 @@ export default function NotFound() {
         </Button>
       </div>
       <ul className="mt-10 border-t border-line">
-        {homepage.publishedServices.map((item) => (
+        {[...homepage.publishedServices, ...homepage.publishedTrades].map((item) => (
           <li key={item.href} className="border-b border-line py-3">
             <Link href={item.href} className="font-semibold text-ink hover:text-brand-strong hover:underline">
               {item.title}

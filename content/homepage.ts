@@ -511,13 +511,24 @@ export const homepage = {
       href: "/residential-estimating-services/",
     },
     {
+      title: "Industrial Estimating Services",
+      href: "/industrial-estimating-services/",
+    },
+  ],
+  publishedTrades: [
+    {
+      title: "Concrete Estimating Services",
+      href: "/concrete-estimating-services/",
+    },
+    {
       title: "Painting Estimating Services",
       href: "/painting-estimating-services/",
     },
   ],
   nav: [
     { href: "/", label: "Home" },
-    { href: "/commercial-estimating-service/", label: "Services", menu: "services" },
+    { href: "/commercial-estimating-service/", label: "Services", menu: "services" as const },
+    { href: "/concrete-estimating-services/", label: "Trades", menu: "trades" as const },
     { href: "/#why-choose", label: "About" },
     { href: "/contact/", label: "Contact" },
   ],

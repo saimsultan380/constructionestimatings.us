@@ -28,6 +28,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: absoluteUrl("/industrial-estimating-services/"),
+      lastModified: "2026-11-02",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/concrete-estimating-services/"),
+      lastModified: "2026-11-02",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: absoluteUrl("/contact/"),
       lastModified: "2026-10-31",
       changeFrequency: "monthly",

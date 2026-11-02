@@ -14,7 +14,7 @@ export function Breadcrumbs({ items }: Props) {
     <>
       <JsonLd data={breadcrumbJsonLd(items)} />
       {items.length > 1 ? (
-        <nav aria-label="Breadcrumb" className="border-b border-line bg-surface-tint">
+        <nav aria-label="Breadcrumb" className="border-b border-line bg-brand-tint">
           <ol className="mx-auto flex w-full max-w-[1240px] flex-wrap items-center gap-x-2 gap-y-1 px-4 py-3 text-sm text-ink-soft min-[480px]:px-6">
             {items.map((item, index) => {
               const isLast = index === items.length - 1;
