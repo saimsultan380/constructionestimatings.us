@@ -524,6 +524,18 @@ export const homepage = {
       title: "Painting Estimating Services",
       href: "/painting-estimating-services/",
     },
+    {
+      title: "Fireproofing Estimating Services",
+      href: "/fireproofing-estimating-services/",
+    },
+    {
+      title: "Electrical Estimating Services",
+      href: "/electrical-estimating-services/",
+    },
+    {
+      title: "Masonry Estimating Services",
+      href: "/masonry-estimating-services/",
+    },
   ],
   nav: [
     { href: "/", label: "Home" },

@@ -40,6 +40,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: absoluteUrl("/fireproofing-estimating-services/"),
+      lastModified: "2026-11-04",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/electrical-estimating-services/"),
+      lastModified: "2026-11-04",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/masonry-estimating-services/"),
+      lastModified: "2026-11-04",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: absoluteUrl("/contact/"),
       lastModified: "2026-10-31",
       changeFrequency: "monthly",

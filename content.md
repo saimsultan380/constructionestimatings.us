@@ -1,173 +1,214 @@
-Meta title: Best Concrete Estimating Services | Concrete Takeoff Service
-Meta description: Concrete estimating services and concrete takeoff services for contractors. Upload plans for cubic yards, rebar, and formwork in 24 to 48 hours. Free quote.
-URL slug: /concrete-estimating-services/
+Meta title: Masonry Estimating Services | Masonry Takeoff Service in USA
 
-Concrete Estimating Services That Count Every Yard, Bar, and Form
-From footings and slabs to walls, columns, and flatwork, our concrete takeoff service measures cubic yards, rebar, and formwork from your plans, then prices labor, material, and equipment. General contractors, concrete contractors, and builders upload plans, see a free quote first, and get an itemized estimate in 24 to 48 hours.
+Meta description: Masonry estimating services and a masonry takeoff service for brick, block, and stone. Upload plans, get a free quote, and an estimate in 24 to 48 hours.
+
+URL slug: /masonry-estimating-services/
+
+Masonry Estimating and Takeoff Service for Brick, Block, and Stone
+Brick, block, and stone walls are measured by face area and unit count, with openings deducted, then priced for mortar, grout, reinforcement, and labor. Masons, general contractors, and builders upload plans, get a free quote first, and receive an itemized masonry estimate in 24 to 48 hours.
 24 to 48 hrs
-CY + SF + LF + LB
+SF + EA + LF + LB
 50 states
 $0
 typical turnaround
-yards, forms, and rebar in one takeoff
+block, brick, and stone in one takeoff
 covered remotely
 quote before work starts
 
-Buttons: Upload Concrete Plans | Get a Free Quote
+Buttons: Get Free Masonry Quote | Upload Masonry Plans
 Free quote first. NDA on request. Approve only if it fits.
-What Concrete Estimating Services Include
-Concrete estimating services measure every concrete element in your plans, then turn those quantities into priced material, labor, and equipment. A concrete estimator reads structural, architectural, and civil sheets, completes the takeoff by element, and delivers an itemized estimate you can bid from.
-Footings and foundations
-Slabs on grade
-Elevated slabs and decks
-Walls and columns
-Flatwork and paving
-Rebar and mesh
-Formwork
-Precast and tilt-up
+What Masonry Estimating and Takeoff Services Include
+Masonry estimating services measure every wall, unit, and reinforcement detail in your plans, then price the material, labor, and access each one needs. A masonry estimator completes the takeoff by wall type and delivers an itemized estimate you can bid from.
+CMU and block walls
+Brick veneer
+Natural and manufactured stone
+Reinforcement and grout
+Lintels and bond beams
+Flashing, weeps, and ties
+Retaining walls and pavers
+Restoration and tuckpointing
 
-Need concrete takeoff services for one bid, or concrete estimating support all year? Our concrete quantity takeoff and concrete cost estimating run from first budget to final bid, so you can say yes to more work without adding payroll.
-Where Concrete Bids Lose Money
-Concrete is priced by the yard, but margin is lost in the details around it.
-Hidden gap
-Why it matters
-Thickness and volume:
-A slab priced at 4 inches when the plans say 6 leaves one third of the concrete out of your number. Small thickness differences multiply across every pour.
-Rebar and accessories:
-Bar sizes, laps, dowels, chairs, and mesh are easy to undercount. Missed reinforcing means missed weight, material, and placing labor.
-Formwork and reuse:
-Forms are measured by contact area, and reuse changes the cost. Guessing form hours is where cast-in-place margins quietly disappear on larger pours.
-Placing and access:
-Pump or crane placement, site access, and weather change production. Delivery distance and short loads add charges that a volume-only takeoff misses.
+Need masonry takeoff services for one bid, or masonry estimating support all year? Our masonry estimating and takeoff service runs from first budget to final bid, so you can say yes to more masonry work without adding payroll.
+Masonry Takeoff Units: How Block, Brick, and Stone Are Counted
+Each masonry material is counted in its own unit, so a takeoff that mixes them up misprices the wall.
+Material
+How it is counted
+Quick math
+8 by 8 by 16 block (CMU)
+By wall area and unit
+1.125 blocks per square foot, nominal
+Modular brick
+By wall area and unit
+About 6.75 bricks per square foot, nominal
+Stone veneer
+By face area, with corners in linear feet
+Square feet, plus linear feet of corners
+Reinforcement
+By weight and length
+Pounds of rebar, feet of joint reinforcement
 
-Illustrative example: A 40 by 60 foot slab at 6 inches thick is about 44 cubic yards before waste. At 4 inches, it is about 30, a gap of roughly 15 cubic yards of real concrete, plus the pumping and finishing hours that go with it.
-Concrete bid due this week? Upload your plans and see your price first. Button: Upload Concrete Plans
-Concrete Estimating Services We Offer
-Pick the concrete estimate that fits your job, from a quick takeoff to a full bid-ready estimate.
+Illustrative example: 1,000 square feet of 8 by 8 by 16 block wall needs about 1,125 blocks before waste and before deducting openings. The same wall in modular brick veneer needs about 6,750 bricks, which is why each material gets its own takeoff.
+Masonry bid due this week? Get your free masonry estimate quote and see your price first. Button: Get Free Masonry Quote
+Masonry Estimating and Takeoff Services We Offer
+Pick the masonry estimate that fits your job, from a quick takeoff to a full bid-ready estimate.
+Masonry Takeoff Service
 Service
 What you get
-Concrete Takeoff Services:
-Cubic yards for every footing, slab, wall, and column measured from structural and architectural sheets. Quantities are grouped by element and CSI division for easy ordering.
-Concrete Cost Estimating:
-Material, labor, equipment, and pumping priced from your takeoff. Use it to bid with scope, assumptions, and exclusions written out.
-Rebar Takeoff Services:
-Bars counted by size, length, and weight, plus mesh, dowels, chairs, and ties. Reinforcing steel is priced as material and placing labor.
-Formwork Estimating:
-Forms measured by contact area and edge length, with reuse and stripping considered. Wall, column, and slab forming are priced separately.
-Foundation and Slab Estimating:
-Footings, stem walls, slabs on grade, and thickened edges priced from foundation plans. Vapor barrier, base, and finishing are listed so nothing hides.
-Flatwork and Paving Estimating:
-Sidewalks, driveways, curbs, gutters, and parking areas measured by area and length. Joints, finishes, and subgrade prep are written into the estimate.
-Structural Concrete Estimating:
-Columns, beams, elevated slabs, shear walls, and stairs measured by element. Post-tensioning, shoring, and crane or pump needs are noted in your assumptions.
-Precast and Tilt-Up Estimating:
-Tilt-up panels, precast elements, and cast-in-place connections counted by piece and size. Crane time, erection, and bracing are priced as separate lines.
+Masonry Takeoff Service:
+Brick, block, and stone measured from architectural and structural sheets, with openings deducted. Quantities are grouped by wall type and CSI division for easy ordering.
+CMU and Block Wall Takeoffs:
+Concrete masonry units counted by size and wall height, plus bond beams, lintels, and control joints. Grout fill and reinforcement are listed with each wall type.
+Brick Veneer Takeoffs:
+Face brick counted by wall area and bond pattern, with ties, flashing, and weeps measured by length. Soldier courses, sills, and accents are tracked separately.
+Stone Veneer Takeoffs:
+Natural and manufactured stone measured by area, with corners, sills, and caps counted as needed. Backup, lath, and setting materials are listed alongside.
+Reinforcement and Grout Takeoffs:
+Vertical rebar, horizontal joint reinforcement, and grout fill measured by wall and cell spacing. Seismic and structural details are taken from your engineering sheets.
 
-How We Build a Concrete Estimate in 3 Steps
+Masonry Estimating Services
+Service
+What you get
+Masonry Bid Estimating:
+Material, labor, scaffolding, and equipment priced from your takeoff, with scope, assumptions, and exclusions written out. Use it to bid with confidence and defend your number.
+Hardscape and Retaining Wall Estimating:
+Segmental retaining walls, pavers, steps, and site walls priced by area, height, and base preparation. Drainage and backfill are listed as separate lines.
+Fireplace, Chimney, and Specialty Masonry:
+Fireplaces, chimneys, and refractory work priced from detail sheets. Flue liners, hearths, and caps are counted as individual items so nothing hides.
+Restoration and Tuckpointing Estimating:
+Repointing, repairs, and cleaning priced by wall area and condition. Existing-condition assumptions are written into your estimate so surprises are flagged early.
+
+How Your Free Masonry Estimate Quote Becomes a Bid-Ready Estimate
 Three steps take you from plan upload to a bid-ready number, with your free quote first.
 
-1. Plan and spec review
+1. Upload and get your quote
 2. Takeoff and pricing
 3. Check and deliver
-   We review structural, architectural, and civil sheets plus the concrete specs. Mix strengths, reinforcing details, joints, and finishes are flagged before measuring begins.
-   Our concrete estimators run a digital takeoff by element, in cubic yards, square feet, linear feet, and weight. Quantities are then priced with ZIP-code-based labor, material, and equipment rates.
-   A second estimator checks volumes, reinforcing weights, and totals. You receive an itemized Excel and PDF estimate, ready for your bid day.
+   Upload your plans with your ZIP code and bid date. You get a free masonry estimate quote before any work starts, and you approve it only if it fits.
+   Our masonry estimators run a digital takeoff by wall type, in square feet, unit counts, linear feet, and weight. Quantities are priced with ZIP-code-based labor, material, and access rates.
+   A second estimator checks areas, unit counts, reinforcement, and totals. You receive an itemized Excel and PDF estimate, ready for your bid day.
 
-Ready to see your number? Upload your plans for a free quote. Button: Get My Concrete Estimate
-Concrete Takeoff Scope by Element
+Ready to see your number? Upload your plans for a free quote. Button: Get My Masonry Estimate
+Masonry Takeoff Scope by Element
 Each element is measured in the unit it is bought and built in, so labor and material line up with the field.
 Element
 What we measure
 Units
-Footings and grade beams
-Continuous and spread footings, piers, grade beams
-CY, LF, SFCA
-Foundation walls
-Stem walls, basement walls, retaining walls
-CY, SFCA
-Slabs on grade
-Slab area, thickness, thickened edges, vapor barrier
-SF, CY
-Elevated slabs and decks
-Slab, beams, drop panels, edge forms, shoring
-SF, CY, SFCA
-Columns and shear walls
-Height, section size, form area, embeds
-CY, SFCA, EA
-Flatwork and paving
-Sidewalks, drives, curbs, gutters, parking areas
+CMU walls
+Wall area, block size, openings deducted, bond beams, lintels
+SF, EA, LF
+Brick veneer
+Wall area, bond pattern, soldier courses, sills, openings
+SF, EA, LF
+Stone veneer
+Face area, corners, sills, caps, backup
+SF, LF
+Reinforcement and grout
+Vertical rebar, joint reinforcement, cell fill
+LB, LF, CF
+Mortar and ties
+Mortar by unit count, wall ties, anchors
+CF or bags, EA
+Flashing, weeps, and control joints
+Flashing length, weep count, joint spacing, sealant
+LF, EA
+Scaffolding and access
+Wall area, height, duration, lifts
+SF, weeks
+Cleaning and sealing
+Wall area, cleaning method, sealer
+SF
+Retaining walls and pavers
+Wall face area, paver area, base, drainage
 SF, LF, CY
-Reinforcing
-Rebar by size, mesh, dowels, chairs, post-tension tendons
-LB or TON, SF, EA
-Precast and tilt-up
-Panels, planks, connections, crane and erection
-EA, SF, CY
 
-Key: CY = cubic yards. SF = square feet. SFCA = square feet of contact area. LF = linear feet. EA = each.
-How We Price Concrete Estimates to Win Bids
-A concrete bid you can defend starts with transparent pricing, so every estimate follows these checks.
+Key: SF = square feet. EA = each. LF = linear feet. LB = pounds. CF = cubic feet. CY = cubic yards.
+How We Price Masonry Estimates to Win Bids
+A masonry bid you can defend starts with transparent pricing, so every estimate follows these checks.
 Check
 How we handle it
-Volume by element:
-footings, walls, slabs, and columns measured separately
-Mix and strength:
-concrete types and psi taken from your specs
-Reinforcing weight:
-bar sizes, laps, mesh, and accessories counted
-Formwork contact area:
-forms measured by surface, with reuse noted
-Placing method:
-pump, crane, or direct chute priced to your site
-Finishing and curing:
-finish type, joints, and curing listed as line items
+Wall area by type:
+CMU, brick, and stone measured separately, with openings deducted
+Unit counts:
+block, brick, and stone pieces counted by size and pattern
+Mortar and grout:
+quantities tied to unit count and cell fill
+Reinforcement:
+rebar, joint reinforcement, and anchors counted from details
+Waste and breakage:
+shown as a separate allowance so you can adjust it
+Flashing and weeps:
+priced by length and location
+Scaffolding and access:
+priced to wall height and duration
 Local labor rates:
 priced to your city and region, not a national average
 Current material costs:
-ready-mix, rebar, and accessories follow supplier pricing for your ZIP code
-Delivery and load minimums:
-haul distance and supplier minimums noted in your assumptions
-Waste and overage:
-shown as a separate allowance so you can adjust it
+block, brick, stone, and sand follow supplier pricing for your ZIP code
+Delivery and hauling:
+haul distance noted in your assumptions
 Overhead and profit lines:
 visible so that you can set your margin
 Second-estimator review:
-volumes, weights, and totals checked before delivery
+areas, unit counts, and totals checked before delivery
 
-Concrete Project Types We Estimate
-Every concrete project has its own cost drivers, so we measure them differently.
+Masonry Estimating for Utah: Seismic Risk, Cold Weather, and Local Factors
+Looking for a free masonry estimate in Utah? Upload your plans for a free masonry estimate quote, and we price the Utah factors that change masonry cost.
+The Wasatch Front has long been known as earthquake country to scientists and engineers. That makes reinforcement, grout fill, and existing masonry conditions important line items. We are not a Utah masonry contractor. We price masonry for contractors in Utah and across the USA, working online with ZIP-code-based rates. thenewslinkgroup
+Utah factor
+Why it matters
+How we handle it
+Seismic design
+Higher seismic design categories generally call for reinforced masonry
+Rebar, grout fill, and bond beams counted from structural sheets
+Existing masonry buildings
+Older unreinforced masonry may need bracing or retrofit
+Retrofit and repair scopes listed with clear assumptions
+Cold weather
+Freezing temperatures can require heating and protection
+Cold-weather costs noted when your schedule calls for them
+Material supply
+Brick, block, and stone pricing varies by yard and haul distance
+ZIP-code-based supplier pricing
+
+Free masonry estimate Utah: upload your plans for a free quote, and Utah masons, builders, and general contractors receive a masonry estimate in 24 to 48 hours once the quote is approved.
+Masonry Project Types We Estimate
+Every masonry project has its own cost drivers, so we measure them differently.
 Project group
 Examples
-Residential concrete:
-basements, foundations, slabs, driveways, patios, retaining walls
+Residential masonry:
+brick and stone veneer homes, fireplaces, chimneys, retaining walls, patios
 Commercial buildings:
-foundations, elevated slabs, parking structures, tilt-up warehouses
-Industrial concrete:
-equipment pads, plant foundations, loading docks, heavy-duty slabs
-Site and paving:
-sidewalks, curbs, gutters, ramps, parking lots, retaining walls
-Specialty concrete:
-precast, tilt-up, post-tensioned slabs, decorative and stamped concrete
+CMU shells, brick veneer, tenant improvements, storefront knee walls
+Healthcare and education:
+CMU partitions, bearing walls, fire-rated walls
+Industrial and warehouses:
+CMU walls, firewalls, equipment enclosures
+Civic and public:
+schools, fire stations, courthouses, community buildings
+Restoration and hardscape:
+tuckpointing, repairs, pavers, segmental retaining walls
 
-Concrete CSI Divisions We Estimate
-Every concrete scope is organized by MasterFormat section, so your totals match your bid package.
-Forming and reinforcing
-Placing and finishing
-Specialty and related
-Concrete Forming and Accessories (03 10 00)
-Cast-in-Place Concrete (03 30 00)
-Precast Concrete (03 40 00)
+Masonry CSI Divisions and Standards
+Every masonry scope is organized by MasterFormat section and tied to the standards your specs reference.
+Division 04 Masonry
+Related work
+Standards
+Common Work Results for Masonry (04 05 00)
 Concrete Reinforcing (03 20 00)
-Concrete Finishing (03 35 00)
-Site-Cast Concrete, including tilt-up (03 47 00)
-Post-Tensioned Concrete (03 38 00)
-Concrete Curing (03 39 00)
-Grouting and Concrete Cutting (03 60 00 and 03 80 00)
+TMS 402 and TMS 602 masonry code and specification
+Unit Masonry (04 20 00)
+Flashing and Sheet Metal (07 60 00)
+ASTM C90 for concrete masonry units
+Concrete Unit Masonry (04 22 00)
+Joint Sealants (07 92 00)
+ASTM C216 for facing brick
+Stone Assemblies (04 40 00)
+Metal Fabrications (05 50 00)
+ASTM C270 for mortar and ASTM C476 for grout
+Maintenance of Masonry (04 01 00)
 
-Earthwork and Exterior Improvements (Div 31 and 32)
-
-Concrete Estimating Software We Use
-We work in the same takeoff and cost tools concrete teams know, then deliver files you can open right away.
+Masonry Estimating Software We Use
+We work in the same takeoff and cost tools masonry teams know, then deliver files you can open right away.
 Category
 Tools
 Digital takeoff:
@@ -178,114 +219,95 @@ Delivery:
 Excel and PDF, in your template or ours
 
 Every estimate runs through the relevant software, then a second estimator reviews it by hand.
-What We Need to Start Your Concrete Estimate
+What We Need to Start Your Masonry Estimate
 Send what you have, and your quote confirms what can be priced.
 Drawings and specs
 Project details
-Foundation plans, structural sheets, sections, and details (PDF or DWG)
+Architectural elevations, wall sections, and details (PDF or DWG)
 Project ZIP code and bid due date
-Concrete specs, mix designs, and reinforcing schedules
-Scope needed: footings, slabs, flatwork, or full structure
-Architectural and civil sheets, plus soil or geotechnical notes if available
+Structural sheets showing reinforcement, bond beams, and lintels
+Scope needed: block, brick, stone, or all
+Division 04 specs, including unit types and mortar
 Preferred template or format
 
-What Your Concrete Estimate Includes
-An itemized package you can bid from, with every yard and bar accounted for.
-Concrete takeoff: cubic yards by element
-Rebar and mesh: weight by size and type
-Formwork: contact area and edge length
-Placing and finishing: labor and equipment lines
-Waste and overage: shown as a separate allowance
-Material pricing: ready-mix and reinforcing by ZIP code
+What Your Masonry Estimate Includes
+An itemized package you can bid from, with every wall and unit accounted for.
+Wall area takeoff: by masonry type, openings deducted
+Unit counts: block, brick, and stone by size
+Mortar and grout: quantities tied to unit count
+Reinforcement: rebar, joint reinforcement, and anchors
+Labor and scaffolding: crew hours and access
+Material pricing: units and sand by ZIP code
 Assumptions and exclusions logs: written down
 Marked-up plan sheets: color-coded to show what was counted
 Overhead and profit: on its own line
 Excel and PDF files: by CSI division or your cost codes
 
-What Moves a Concrete Estimate
-These factors shape most concrete estimates, and we price each one.
-Concrete strength and mix
-Slab thickness and reinforcing density
-Formwork complexity and reuse
-Pump, crane, or chute placement
-Site access and haul distance
-Weather and curing needs
-Finish type and tolerances
-Local labor and material rates
-
-Who Uses Our Concrete Estimating Services
-Teams that need dependable concrete numbers fast.
-Concrete Contractors
+Who Uses Our Masonry Estimating Services
+Teams that need dependable masonry numbers fast.
+Masonry Contractors
+Brick and Block Layers
+Stone Veneer Installers
 General Contractors
-Foundation Contractors
-Site and Paving Contractors
-Developers
 Home Builders
-Engineers and Architects
+Developers
+Architects and Engineers
 Owners and Project Managers
 
-Why Contractors Hire Us for Concrete Estimating
+Why Contractors Hire Us for Masonry Estimating
 Speed, clear pricing, and a written trail for every number.
 24 to 48 Hour Turnaround
 Free Quote First
-Element-by-Element Takeoffs
+Wall-by-Wall Takeoffs
 Second-Estimator Check
 ZIP-Code Pricing
 NDA on Request
 Excel and PDF Files
 Nationwide Remote Service
 
-Our concrete takeoff services work project by project. Construction Estimations is an estimating company on call, with concrete estimators for hire when your bid calendar fills up.
-Concrete Estimating Pricing and Turnaround
+Our masonry takeoff services work project by project. Construction Estimations is an estimating company on call, with masonry estimators for hire when your bid calendar fills up.
+Masonry Estimating Pricing and Turnaround
 You see the price first, and most estimates arrive in 24 to 48 hours.
 What affects your quote
 Why it matters
-Project size and cubic yards:
-more concrete means more measuring time
-Reinforcing density:
-heavier rebar adds takeoff lines
-Number of elements and pours:
-each element adds its own quantities
+Wall area and number of wall types:
+more area means more measuring time
+Reinforcement and grout scope:
+heavier reinforcement adds takeoff lines
+Mix of block, brick, and stone:
+each material adds its own quantities
 Bid due date:
 tell us when you upload
 
-Concrete Estimating Services Near Me: Nationwide Coverage
-Searching for concrete estimating services near me? We work online with contractors in all 50 states.
+Masonry Estimating Services Near Me: Nationwide Coverage
+Searching for masonry estimating services near me? We work online with contractors in all 50 states.
 ZIP-code pricing builds in local labor and material rates, so you do not need a local office.
-concrete estimating services California
-concrete estimating services Illinois
-concrete estimating services Pennsylvania
-concrete estimating services Michigan
-concrete estimating services Georgia
-concrete estimating services Arizona
-concrete estimating services Minnesota
-concrete estimating services Oregon
+free masonry estimate Utah
+masonry estimating services California
+masonry estimating services Illinois
+masonry estimating services Pennsylvania
+masonry estimating services Michigan
+masonry estimating services Georgia
+masonry estimating services Arizona
+masonry estimating services Minnesota
 
-More Estimating Services
-Masonry Takeoff Services
-Sitework Estimating Services
-Construction Takeoff Services
-Commercial Estimating Services
-Residential Estimating Services
-Cost Estimating Services
-
-Concrete Estimating FAQs
-What do concrete estimating services include?
-A concrete takeoff by element, rebar and formwork quantities, labor, material, and equipment pricing, overhead and profit, and written assumptions and exclusions. You receive the package in Excel and PDF.
-How much do concrete estimating services cost?
-Cost depends on project size, number of elements, reinforcing density, and your deadline. Construction Estimations gives you a free quote before any work starts, so you see the price first.
-How long does a concrete takeoff take?
-Most concrete takeoffs and estimates are delivered in 24 to 48 hours. Large structures or incomplete plan sets can take longer, so share your bid due date when you upload.
-How do you calculate cubic yards of concrete?
-We multiply the length, width, and depth of each element in feet to get cubic feet, then divide by 27. Waste and overage are shown as a separate allowance, and your assumptions log shows each input.
-Do you include rebar and formwork in a concrete takeoff?
-Yes. We take off rebar by size and weight, plus mesh, dowels, and accessories, and formwork by contact area. If your scope excludes them, say so and we list them as exclusions.
-Can I order a concrete takeoff service without a full estimate?
-Yes. Our concrete takeoff services deliver measured quantities on their own. Use them to request supplier quotes, order ready-mix, or build your own concrete estimate.
-What concrete projects do you estimate?
-We estimate residential foundations and flatwork, commercial structures, tilt-up and precast, industrial slabs, and site paving. Send your plans and your quote confirms the scope we price.
-What is the difference between a concrete takeoff and a concrete estimate?
-A takeoff measures quantities, such as cubic yards, form area, and rebar weight. An estimate then prices those quantities with labor, material, equipment, overhead, and profit so you can bid.
-Send Your Plans. Get Every Yard Counted.
-Upload your structural plans to Construction Estimations for concrete estimating services with a free quote before work starts. Buttons: Upload Concrete Plans | Request My Free Quote
+Masonry Estimating FAQs
+What do masonry estimating services include?
+A takeoff by wall type, unit counts, mortar, grout, and reinforcement, plus labor, material, and access pricing, overhead and profit, and written assumptions and exclusions. You receive the package in Excel and PDF.
+Can I get a free masonry estimate?
+The quote is free. You see the price for your masonry estimate before any work starts, and you approve it only if it fits. Upload your plans to get a free masonry estimate quote.
+How long does a masonry takeoff take?
+Most masonry takeoffs and estimates are delivered in 24 to 48 hours. Large buildings or incomplete plan sets can take longer, so share your bid due date when you upload.
+How do you calculate bricks and blocks for a wall?
+We measure wall area, deduct openings, and multiply by units per square foot, which is 1.125 for standard 8 by 8 by 16 block and about 6.75 for modular brick. Waste is shown as a separate allowance.
+Do you include grout and rebar in a masonry takeoff?
+Yes. We take off vertical rebar, joint reinforcement, anchors, and grout fill from your structural details. If your scope excludes them, say so and we list them as exclusions.
+Can I order a masonry takeoff service without a full estimate?
+Yes. Our masonry takeoff service delivers measured quantities by wall type on its own. Use it to request supplier quotes, order units, or build your own masonry estimate.
+Do you offer a free masonry estimate in Utah?
+We are not a Utah masonry contractor, but we price masonry for Utah masons, builders, and contractors. Upload your plans for a free quote, then receive your estimate in Excel and PDF.
+What is the difference between a masonry takeoff and a masonry estimate?
+A takeoff measures quantities, such as wall area, unit counts, and rebar weight. An estimate then prices those quantities with labor, material, access, overhead, and profit so you can bid.
+Send Your Plans. Get Every Block, Brick, and Stone Counted.
+Upload your plans to Construction Estimations for masonry estimating services with a free quote before work starts. Buttons: Get Free Masonry Quote | Upload Masonry Plans
 NDA on request. Approve only if the quote fits.
