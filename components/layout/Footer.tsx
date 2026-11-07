@@ -1,27 +1,28 @@
 import Link from "next/link";
 import { homepage } from "@/content/homepage";
+import { legalNav } from "@/content/legal";
 import { Logo } from "@/components/layout/Logo";
-import { email, phone } from "@/lib/site";
+import { phone } from "@/lib/site";
 import { EmailLink, PhoneLink } from "@/components/ui/ContactLinks";
 
 export function Footer() {
   const year = 2026;
 
   return (
-    <footer className="bg-brand text-surface">
-      <div className="mx-auto grid w-full max-w-[1240px] gap-10 px-4 py-14 min-[480px]:px-6 md:grid-cols-2 lg:grid-cols-5">
+    <footer className="bg-surface text-ink">
+      <div className="mx-auto grid w-full max-w-[1240px] gap-10 px-4 py-14 min-[480px]:px-6 md:grid-cols-2 lg:grid-cols-6">
         <div className="lg:col-span-2">
           <Link href="/" aria-label="Construction Estimatings home" className="inline-block">
-            <Logo tone="inverse" />
+            <Logo size="footer" />
           </Link>
-          <p className="mt-4 max-w-[36ch] text-sm leading-6 text-surface/90">{homepage.footer.description}</p>
+          <p className="mt-4 max-w-[36ch] text-sm leading-6 text-ink-soft">{homepage.footer.description}</p>
         </div>
         <div>
-          <p className="font-heading text-base font-semibold text-accent">Quick links</p>
+          <p className="font-heading text-base font-semibold text-brand-strong">Quick links</p>
           <ul className="mt-4 space-y-2">
             {homepage.nav.map((item) => (
               <li key={item.label}>
-                <Link href={item.href} className="text-sm text-surface hover:text-accent hover:underline">
+                <Link href={item.href} className="text-sm text-ink hover:text-brand-strong hover:underline">
                   {item.label}
                 </Link>
               </li>
@@ -29,11 +30,11 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <p className="font-heading text-base font-semibold text-accent">Services</p>
+          <p className="font-heading text-base font-semibold text-brand-strong">Services</p>
           <ul className="mt-4 space-y-2">
             {homepage.publishedServices.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-sm text-surface hover:text-accent hover:underline">
+                <Link href={item.href} className="text-sm text-ink hover:text-brand-strong hover:underline">
                   {item.title}
                 </Link>
               </li>
@@ -41,41 +42,44 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <p className="font-heading text-base font-semibold text-accent">Trades</p>
+          <p className="font-heading text-base font-semibold text-brand-strong">Trades</p>
           <ul className="mt-4 space-y-2">
             {homepage.publishedTrades.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-sm text-surface hover:text-accent hover:underline">
+                <Link href={item.href} className="text-sm text-ink hover:text-brand-strong hover:underline">
                   {item.title}
                 </Link>
               </li>
             ))}
           </ul>
-          <div className="mt-8 space-y-2 text-sm">
-            <p className="font-heading text-base font-semibold text-accent">Contact</p>
+        </div>
+        <div>
+          <p className="font-heading text-base font-semibold text-brand-strong">Contact</p>
+          <ul className="mt-4 space-y-2 text-sm">
             {phone ? (
-              <p className="[&_a]:text-surface [&_a]:hover:text-accent">
+              <li className="[&_a]:text-ink [&_a]:hover:text-brand-strong">
                 <PhoneLink />
-              </p>
+              </li>
             ) : null}
-            {email ? (
-              <p className="[&_a]:text-surface [&_a]:hover:text-accent">
-                <EmailLink />
-              </p>
-            ) : null}
-            <p className="text-surface/90">{homepage.footer.coverage}</p>
-            <p>
-              <Link href="/contact/" className="font-semibold text-accent hover:underline">
-                {homepage.hero.secondaryCta}
-              </Link>
-            </p>
-          </div>
+            <li className="[&_a]:text-ink [&_a]:hover:text-brand-strong">
+              <EmailLink />
+            </li>
+          </ul>
         </div>
       </div>
       <div className="border-t border-surface/20 bg-brand-strong">
-        <p className="mx-auto w-full max-w-[1240px] px-4 py-4 text-sm text-surface/90 min-[480px]:px-6">
-          © {year} Construction Estimatings
-        </p>
+        <div className="mx-auto flex w-full max-w-[1240px] flex-col gap-3 px-4 py-4 text-sm text-surface/90 min-[480px]:px-6 sm:flex-row sm:items-center sm:justify-between">
+          <p>© {year} Construction Estimatings</p>
+          <ul className="flex flex-wrap gap-x-4 gap-y-2">
+            {legalNav.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href} className="text-surface/90 hover:text-accent hover:underline">
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </footer>
   );

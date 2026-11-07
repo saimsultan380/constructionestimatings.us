@@ -67,6 +67,8 @@ export function organizationJsonLd(description: string, phone?: string) {
     "@type": "Organization",
     name: siteName,
     url: `${siteUrl}/`,
+    logo: absoluteUrl("/logo.png"),
+    image: absoluteUrl("/logo.png"),
     description,
     areaServed: "US",
   };

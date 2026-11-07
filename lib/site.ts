@@ -15,7 +15,9 @@ export const siteUrl = normalizeSiteOrigin(
 );
 
 export const phone = process.env.NEXT_PUBLIC_PHONE?.trim() || "";
-export const email = process.env.NEXT_PUBLIC_EMAIL?.trim() || "";
+/** Prefer env; otherwise use info@ on the canonical domain. */
+export const email =
+  process.env.NEXT_PUBLIC_EMAIL?.trim() || `info@${siteHost}`;
 
 export const metaDescription =
   "Professional construction cost estimating services turn your drawings into measured quantities and a priced estimate. A building construction estimator reviews.";

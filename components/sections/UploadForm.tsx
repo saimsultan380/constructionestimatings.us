@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { homepage } from "@/content/homepage";
@@ -89,8 +90,15 @@ export function UploadForm() {
   const errors = form.formState.errors;
 
   return (
-    <form id="upload" onSubmit={onSubmit} className="rounded-xl border border-line bg-surface p-5 shadow-[var(--shadow-soft)] lg:sticky lg:top-32" noValidate>
-      <h3 className="font-heading text-xl font-semibold">{homepage.process.form.submit}</h3>
+    <form
+      id="upload"
+      onSubmit={onSubmit}
+      className="rounded-xl border border-line bg-surface p-5 shadow-[var(--shadow-soft)] lg:sticky lg:top-32 lg:p-6"
+      noValidate
+    >
+      <p className="text-sm font-semibold uppercase tracking-[0.08em] text-brand-strong">Quote request</p>
+      <h3 className="mt-2 font-heading text-xl font-semibold lg:text-2xl">{homepage.process.form.submit}</h3>
+      <p className="mt-2 text-sm leading-6 text-ink-soft">{homepage.process.form.note}</p>
       <div className="absolute -left-[9999px] h-0 w-0 overflow-hidden" aria-hidden="true">
         <label htmlFor="companyWebsite">Company website</label>
         <input id="companyWebsite" tabIndex={-1} autoComplete="off" {...form.register("companyWebsite")} />
@@ -124,7 +132,17 @@ export function UploadForm() {
       <Button type="submit" className="mt-5 w-full" disabled={status === "submitting"}>
         {status === "submitting" ? "Sending" : homepage.process.form.submit}
       </Button>
-      <p className="mt-3 text-sm text-ink-soft">{homepage.process.form.note}</p>
+      <p className="mt-3 text-sm text-ink-soft">
+        By submitting, you agree to our{" "}
+        <Link href="/privacy-policy/" className="font-medium text-brand-strong hover:underline">
+          Privacy Policy
+        </Link>{" "}
+        and{" "}
+        <Link href="/terms-of-service/" className="font-medium text-brand-strong hover:underline">
+          Terms of Service
+        </Link>
+        .
+      </p>
     </form>
   );
 }

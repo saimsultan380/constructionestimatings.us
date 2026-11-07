@@ -25,7 +25,7 @@ export function MobileStickyBar() {
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-surface p-3 shadow-[var(--shadow-soft)] lg:hidden">
       <div className={phone ? "grid grid-cols-[1fr_auto] gap-2" : "grid"}>
-        <Button href="/contact/">{homepage.hero.secondaryCta}</Button>
+        <Button href="/contact/">{homepage.hero.primaryCta}</Button>
         {phone ? (
           <PhoneLink className="inline-flex h-12 items-center justify-center rounded-lg border-[1.5px] border-brand bg-surface px-4 text-brand-strong" prefix="Call" />
         ) : null}

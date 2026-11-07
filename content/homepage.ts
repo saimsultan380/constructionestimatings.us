@@ -11,8 +11,8 @@ export const homepage = {
       "NDA on request",
     ] as const,
     callLabel: "Call Us on",
-    primaryCta: "Upload Your Plans",
-    secondaryCta: "Get a Free Quote",
+    primaryCta: "Get a Free Quote",
+    secondaryCta: "See Our Services",
     note: "Free quote before any work starts.",
   },
   intro: {
@@ -24,7 +24,7 @@ export const homepage = {
     ],
     bandTitle: "Bid due this week?",
     bandBody: "Send your plans and get a free quote before work starts.",
-    bandCta: "Upload Your Plans",
+    bandCta: "Get a Free Quote",
   },
   failures: {
     title: "Why Bids Fail Before Bid Day",
@@ -490,7 +490,7 @@ export const homepage = {
     ] as const,
     callLabel: "Call",
     primaryCta: "Get a Free Quote",
-    secondaryCta: "Upload Your Plans",
+    secondaryCta: "See Our Services",
   },
   footer: {
     description:
@@ -536,12 +536,24 @@ export const homepage = {
       title: "Masonry Estimating Services",
       href: "/masonry-estimating-services/",
     },
+    {
+      title: "Rebar Estimating Services",
+      href: "/rebar-estimating-services/",
+    },
+    {
+      title: "Equipment Estimating Services",
+      href: "/equipment-estimating-services/",
+    },
+    {
+      title: "Landscape Estimating Services",
+      href: "/landscape-estimating-services/",
+    },
   ],
   nav: [
     { href: "/", label: "Home" },
     { href: "/commercial-estimating-service/", label: "Services", menu: "services" as const },
     { href: "/concrete-estimating-services/", label: "Trades", menu: "trades" as const },
-    { href: "/#why-choose", label: "About" },
+    { href: "/about/", label: "About" },
     { href: "/contact/", label: "Contact" },
   ],
   slots: {

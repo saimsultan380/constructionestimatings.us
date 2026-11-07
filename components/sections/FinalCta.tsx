@@ -23,7 +23,7 @@ export function FinalCta() {
         <p className="mt-4 max-w-[62ch] text-base font-semibold leading-[1.6] text-surface lg:text-[17px]">{finalCta.body}</p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Button href="/contact/">{finalCta.primaryCta}</Button>
-          <Button href="/contact/" variant="onBlue">
+          <Button href="#services" variant="onBlue">
             {finalCta.secondaryCta}
           </Button>
         </div>

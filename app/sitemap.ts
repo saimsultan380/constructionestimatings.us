@@ -58,8 +58,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: absoluteUrl("/rebar-estimating-services/"),
+      lastModified: "2026-11-07",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/equipment-estimating-services/"),
+      lastModified: "2026-11-07",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/landscape-estimating-services/"),
+      lastModified: "2026-11-07",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/about/"),
+      lastModified: "2026-11-07",
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: absoluteUrl("/contact/"),
-      lastModified: "2026-10-31",
+      lastModified: "2026-11-07",
       changeFrequency: "monthly",
       priority: 0.7,
     },

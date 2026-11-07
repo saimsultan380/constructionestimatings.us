@@ -1,313 +1,328 @@
-Meta title: Masonry Estimating Services | Masonry Takeoff Service in USA
+Meta title: Landscape Estimating Services | Landscape Takeoff Services
 
-Meta description: Masonry estimating services and a masonry takeoff service for brick, block, and stone. Upload plans, get a free quote, and an estimate in 24 to 48 hours.
+Meta description: Landscape estimating services and landscape takeoff services for contractors. Upload plans, get a free quote, and an itemized estimate in 24 to 48 hours.
 
-URL slug: /masonry-estimating-services/
+URL slug: /landscape-estimating-services/
 
-Masonry Estimating and Takeoff Service for Brick, Block, and Stone
-Brick, block, and stone walls are measured by face area and unit count, with openings deducted, then priced for mortar, grout, reinforcement, and labor. Masons, general contractors, and builders upload plans, get a free quote first, and receive an itemized masonry estimate in 24 to 48 hours.
+Landscape Estimating Services for Design Plans, Properties, and Maintenance Bids
+Turf, beds, plants, hardscape, irrigation, and lighting are measured from your landscape plans or aerial images, then priced for material, labor, and equipment. Landscape contractors, designers, and lawn care companies upload files, get a free quote first, and receive an itemized estimate in 24 to 48 hours.
 24 to 48 hrs
-SF + EA + LF + LB
+SF + CY + LF + EA
 50 states
 $0
 typical turnaround
-block, brick, and stone in one takeoff
+areas, volumes, lengths, and counts in one takeoff
 covered remotely
 quote before work starts
 
-Buttons: Get Free Masonry Quote | Upload Masonry Plans
+Buttons: Upload Landscape Plans | Get a Free Quote
 Free quote first. NDA on request. Approve only if it fits.
-What Masonry Estimating and Takeoff Services Include
-Masonry estimating services measure every wall, unit, and reinforcement detail in your plans, then price the material, labor, and access each one needs. A masonry estimator completes the takeoff by wall type and delivers an itemized estimate you can bid from.
-CMU and block walls
-Brick veneer
-Natural and manufactured stone
-Reinforcement and grout
-Lintels and bond beams
-Flashing, weeps, and ties
-Retaining walls and pavers
-Restoration and tuckpointing
+What Landscape Estimating Services Include
+Landscape estimating services measure every lawn, bed, plant, and hard surface in your plans or images, then price the material, labor, and equipment each one needs. A landscape estimator completes the takeoff by area and material, and delivers an itemized estimate you can bid from.
+Turf and sod
+Planting beds and mulch
+Trees, shrubs, and plants
+Pavers and hardscape
+Irrigation systems
+Landscape lighting
+Drainage and grading
+Maintenance and lawn care
 
-Need masonry takeoff services for one bid, or masonry estimating support all year? Our masonry estimating and takeoff service runs from first budget to final bid, so you can say yes to more masonry work without adding payroll.
-Masonry Takeoff Units: How Block, Brick, and Stone Are Counted
-Each masonry material is counted in its own unit, so a takeoff that mixes them up misprices the wall.
-Material
-How it is counted
-Quick math
-8 by 8 by 16 block (CMU)
-By wall area and unit
-1.125 blocks per square foot, nominal
-Modular brick
-By wall area and unit
-About 6.75 bricks per square foot, nominal
-Stone veneer
-By face area, with corners in linear feet
-Square feet, plus linear feet of corners
-Reinforcement
-By weight and length
-Pounds of rebar, feet of joint reinforcement
+Need landscape takeoff services for one bid, or a landscape estimator on call all year? Our landscaping estimating services cover design plans, installation bids, and maintenance quotes, with estimates for landscaping projects of any size, so you can say yes to more work without adding payroll.
+What Is Automated Landscape Estimating?
+Automated landscape estimating uses software to measure properties and turn those measurements into quantities and prices, so quotes go out faster.
+Automated property estimating for landscapers uses aerial imagery and software to measure properties remotely. Automated property estimating for landscaping companies also keeps measurements consistent across crews. Contractors use it to quote without a site visit, cut drive time, and price every property the same way. A National Association of Landscape Professionals article notes that on the construction side, the takeoff can take 50 to 80 percent of the time spent bidding a project.
+Method
+How it works
+Best for
+Aerial property measurement
+Turf, beds, and hardscape are mapped from aerial images
+Maintenance and lawn care quotes
+Plan-based digital takeoff
+Areas, lengths, and counts are measured on PDF plans
+Installation and design-build bids
+Estimating software with saved unit costs
+Quantities are turned into prices using stored rates
+Repeat services and standard packages
+Outsourced takeoff and estimating
+An estimator and software, with a second review
+Overflow bids and busy seasons
 
-Illustrative example: 1,000 square feet of 8 by 8 by 16 block wall needs about 1,125 blocks before waste and before deducting openings. The same wall in modular brick veneer needs about 6,750 bricks, which is why each material gets its own takeoff.
-Masonry bid due this week? Get your free masonry estimate quote and see your price first. Button: Get Free Masonry Quote
-Masonry Estimating and Takeoff Services We Offer
-Pick the masonry estimate that fits your job, from a quick takeoff to a full bid-ready estimate.
-Masonry Takeoff Service
+We do not sell software. Our estimators use digital takeoff tools on the plans or images you send, then a second estimator checks the result, so you get automated speed with a human review.
+Landscape bid due this week? Get your free landscape quote and see your price first. Button: Get Landscape Quote
+Landscape Estimating Services We Offer
+Pick the landscape estimate that fits your job, from a quick takeoff to a complete bid package.
+Landscape Takeoff Services
 Service
 What you get
-Masonry Takeoff Service:
-Brick, block, and stone measured from architectural and structural sheets, with openings deducted. Quantities are grouped by wall type and CSI division for easy ordering.
-CMU and Block Wall Takeoffs:
-Concrete masonry units counted by size and wall height, plus bond beams, lintels, and control joints. Grout fill and reinforcement are listed with each wall type.
-Brick Veneer Takeoffs:
-Face brick counted by wall area and bond pattern, with ties, flashing, and weeps measured by length. Soldier courses, sills, and accents are tracked separately.
-Stone Veneer Takeoffs:
-Natural and manufactured stone measured by area, with corners, sills, and caps counted as needed. Backup, lath, and setting materials are listed alongside.
-Reinforcement and Grout Takeoffs:
-Vertical rebar, horizontal joint reinforcement, and grout fill measured by wall and cell spacing. Seismic and structural details are taken from your engineering sheets.
+Landscape Takeoff Services:
+Turf, beds, plants, hardscape, and irrigation measured from landscape plans, with counts for trees and shrubs. Quantities are grouped by area and material for easy ordering.
+Softscape Takeoffs:
+Sod, seed, mulch, topsoil, and plants measured by area and depth, then converted to cubic yards, pounds, or counts. Planting schedules are matched to the plan legend.
+Hardscape Takeoffs:
+Pavers, walls, steps, edging, and decks measured by area, face area, and length. Base, sand, and fasteners are listed with each surface.
+Irrigation Takeoffs:
+Zones, heads, valves, controllers, backflow devices, and pipe runs counted and measured from irrigation plans. Pipe is tallied by size, and fittings by type.
+Lighting and Drainage Takeoffs:
+Fixtures, transformers, and wire runs counted from lighting plans, plus drain pipe, basins, and grading. Trenching is measured by length and depth.
 
-Masonry Estimating Services
+Landscape Estimating and Maintenance Services
 Service
 What you get
-Masonry Bid Estimating:
-Material, labor, scaffolding, and equipment priced from your takeoff, with scope, assumptions, and exclusions written out. Use it to bid with confidence and defend your number.
-Hardscape and Retaining Wall Estimating:
-Segmental retaining walls, pavers, steps, and site walls priced by area, height, and base preparation. Drainage and backfill are listed as separate lines.
-Fireplace, Chimney, and Specialty Masonry:
-Fireplaces, chimneys, and refractory work priced from detail sheets. Flue liners, hearths, and caps are counted as individual items so nothing hides.
-Restoration and Tuckpointing Estimating:
-Repointing, repairs, and cleaning priced by wall area and condition. Existing-condition assumptions are written into your estimate so surprises are flagged early.
+Landscape Bid Estimating:
+Material, labor, equipment, and subcontractor costs priced from your takeoff, with scope, assumptions, and exclusions written out. Use it to bid and defend your number.
+Landscape Design Estimates:
+Budget numbers for design plans before bidding, with allowances for plants, hardscape, and features. Designers and clients see cost impacts as the design develops.
+Commercial Landscape Estimating:
+Corporate campuses, HOAs, and multifamily properties measured by area and service zone. Install and maintenance scopes are priced separately so each is clear.
+Lawn Care and Maintenance Estimating:
+Mowing, edging, fertilizing, mulching, and seasonal services priced from measured turf and bed areas. Visit frequency, drive time, and production rates are listed as assumptions.
+Landscape Property Analysis:
+Turf, beds, hardscape, slopes, and obstacles measured from plans or aerial images. A landscapers analysis of the site gives you clean numbers before you quote.
 
-How Your Free Masonry Estimate Quote Becomes a Bid-Ready Estimate
-Three steps take you from plan upload to a bid-ready number, with your free quote first.
+How We Build a Landscape Estimate in 3 Steps
+Three steps take you from upload to a bid-ready number, with your free quote first.
 
 1. Upload and get your quote
 2. Takeoff and pricing
 3. Check and deliver
-   Upload your plans with your ZIP code and bid date. You get a free masonry estimate quote before any work starts, and you approve it only if it fits.
-   Our masonry estimators run a digital takeoff by wall type, in square feet, unit counts, linear feet, and weight. Quantities are priced with ZIP-code-based labor, material, and access rates.
-   A second estimator checks areas, unit counts, reinforcement, and totals. You receive an itemized Excel and PDF estimate, ready for your bid day.
+   Upload plans or aerial images with your ZIP code and bid date. You get a free landscape estimate quote before work starts, and you approve it only if it fits.
+   Our landscape estimators run a digital takeoff by area and material, in square feet, cubic yards, linear feet, and counts. Quantities are priced with ZIP-code-based labor, material, and equipment rates.
+   A second estimator checks areas, volumes, counts, and totals. You receive an itemized Excel and PDF estimate, ready for your bid day.
 
-Ready to see your number? Upload your plans for a free quote. Button: Get My Masonry Estimate
-Masonry Takeoff Scope by Element
-Each element is measured in the unit it is bought and built in, so labor and material line up with the field.
+Ready to see your number? Upload your files for a free quote. Button: Get My Landscape Estimate
+How to Do a Landscaping Estimate in 6 Steps
+To do a landscaping estimate, measure each area, convert areas to materials, price labor and equipment, add overhead and profit, and document every assumption.
+Step
+What to do
+What to watch
+
+1. Review the site
+   Check plans or images for access, slopes, and existing plants
+   Obstacles and hidden conditions
+2. Measure areas
+   Measure turf, beds, hardscape, and edging in square and linear feet
+   Curves and overlapping areas
+3. Convert to materials
+   Multiply area by depth, then divide by 27 for cubic yards
+   Depth assumptions and waste
+4. Price labor and equipment
+   Build hours from production rates, crew size, and drive time
+   Realistic rates, not hopeful ones
+5. Add overhead and profit
+   Show them on their own lines
+   Margin you can defend
+6. Document it
+   List assumptions, exclusions, and timing
+   Planting windows and seasons
+
+Illustrative example: A 2,000 square foot bed at 3 inches deep needs about 18.5 cubic yards of mulch before waste. At 2 inches, it needs about 12.3, so one depth assumption changes the order by 50 percent. Use the same steps to estimate landscaping jobs of any size.
+Landscape Takeoff Scope by Element
+Each element is measured in the unit it is bought and installed in, so material and labor line up with the field.
 Element
 What we measure
 Units
-CMU walls
-Wall area, block size, openings deducted, bond beams, lintels
-SF, EA, LF
-Brick veneer
-Wall area, bond pattern, soldier courses, sills, openings
-SF, EA, LF
-Stone veneer
-Face area, corners, sills, caps, backup
-SF, LF
-Reinforcement and grout
-Vertical rebar, joint reinforcement, cell fill
-LB, LF, CF
-Mortar and ties
-Mortar by unit count, wall ties, anchors
-CF or bags, EA
-Flashing, weeps, and control joints
-Flashing length, weep count, joint spacing, sealant
-LF, EA
-Scaffolding and access
-Wall area, height, duration, lifts
-SF, weeks
-Cleaning and sealing
-Wall area, cleaning method, sealer
+Turf and sod
+Lawn areas, slopes, edges
 SF
-Retaining walls and pavers
-Wall face area, paver area, base, drainage
-SF, LF, CY
+Seed and hydroseed
+Seeded areas, rates by area
+SF, LB
+Planting beds and mulch
+Bed area, depth, edging
+SF, CY, LF
+Trees, shrubs, and plants
+Counts by species and size from the plant schedule
+EA
+Topsoil and amendments
+Area, depth, import or haul-off
+CY
+Stone, gravel, and aggregates
+Area, depth, material type
+CY, TON
+Pavers and hardscape
+Surface area, base, edging, patterns
+SF, LF
+Retaining walls and steps
+Face area, length, height, steps
+SF, LF, EA
+Irrigation
+Zones, heads, valves, pipe by size, controllers
+EA, LF
+Landscape lighting
+Fixtures, transformers, wire runs
+EA, LF
+Drainage and grading
+Pipe, basins, cut and fill
+LF, EA, CY
 
-Key: SF = square feet. EA = each. LF = linear feet. LB = pounds. CF = cubic feet. CY = cubic yards.
-How We Price Masonry Estimates to Win Bids
-A masonry bid you can defend starts with transparent pricing, so every estimate follows these checks.
+Key: SF = square feet. LF = linear feet. CY = cubic yards. EA = each. LB = pounds. TON = tons.
+How We Price Landscape Estimates to Win Bids
+A landscape bid you can defend starts with transparent pricing, so every estimate follows these checks.
 Check
 How we handle it
-Wall area by type:
-CMU, brick, and stone measured separately, with openings deducted
-Unit counts:
-block, brick, and stone pieces counted by size and pattern
-Mortar and grout:
-quantities tied to unit count and cell fill
-Reinforcement:
-rebar, joint reinforcement, and anchors counted from details
-Waste and breakage:
+Measured areas:
+turf, beds, and hardscape measured separately from plans or images
+Depth and conversion:
+volumes built from area and depth, shown in cubic yards
+Plant counts:
+trees, shrubs, and groundcover counted from the legend and schedule
+Material pricing:
+plants, stone, mulch, and pavers follow supplier pricing for your ZIP code
+Waste and overage:
 shown as a separate allowance so you can adjust it
-Flashing and weeps:
-priced by length and location
-Scaffolding and access:
-priced to wall height and duration
+Production rates:
+labor hours built from your rates or stated assumptions
+Equipment:
+skid steers, mowers, trenchers, and rentals priced to the job
+Drive time and mobilization:
+listed for maintenance and multi-site work
 Local labor rates:
 priced to your city and region, not a national average
-Current material costs:
-block, brick, stone, and sand follow supplier pricing for your ZIP code
-Delivery and hauling:
-haul distance noted in your assumptions
+Seasonality and timing:
+planting windows and seasonal services noted
 Overhead and profit lines:
 visible so that you can set your margin
 Second-estimator review:
-areas, unit counts, and totals checked before delivery
+areas, volumes, counts, and totals checked before delivery
 
-Masonry Estimating for Utah: Seismic Risk, Cold Weather, and Local Factors
-Looking for a free masonry estimate in Utah? Upload your plans for a free masonry estimate quote, and we price the Utah factors that change masonry cost.
-The Wasatch Front has long been known as earthquake country to scientists and engineers. That makes reinforcement, grout fill, and existing masonry conditions important line items. We are not a Utah masonry contractor. We price masonry for contractors in Utah and across the USA, working online with ZIP-code-based rates. thenewslinkgroup
-Utah factor
-Why it matters
+Common Landscape and Lawn Care Estimating Issues
+Estimating landscape work goes wrong in a few familiar places, and the estimating issues lawn care companies face usually trace back to measuring, rates, and timing, so we make each one visible.
+Issue
+Why it hurts
 How we handle it
-Seismic design
-Higher seismic design categories generally call for reinforced masonry
-Rebar, grout fill, and bond beams counted from structural sheets
-Existing masonry buildings
-Older unreinforced masonry may need bracing or retrofit
-Retrofit and repair scopes listed with clear assumptions
-Cold weather
-Freezing temperatures can require heating and protection
-Cold-weather costs noted when your schedule calls for them
-Material supply
-Brick, block, and stone pricing varies by yard and haul distance
-ZIP-code-based supplier pricing
+Inaccurate property measurements
+Every visit is over or under priced
+Areas measured by zone from plans or images
+Inconsistent production rates
+Margins swing from job to job
+Rates stated in your assumptions log
+Forgotten drive time
+Small jobs quietly lose money
+Mobilization listed as its own line
+Depth and waste guesses
+Orders run short or long
+Depth shown with a separate waste allowance
+Slopes and obstacles
+Crews slow down and hours grow
+Conditions noted from plans and images
+Old material prices
+Margin shrinks before the job starts
+Current supplier pricing for your ZIP code
 
-Free masonry estimate Utah: upload your plans for a free quote, and Utah masons, builders, and general contractors receive a masonry estimate in 24 to 48 hours once the quote is approved.
-Masonry Project Types We Estimate
-Every masonry project has its own cost drivers, so we measure them differently.
+Landscape Project Types We Estimate
+Every landscape project has its own measurements and cost drivers, so we price them differently.
 Project group
 Examples
-Residential masonry:
-brick and stone veneer homes, fireplaces, chimneys, retaining walls, patios
-Commercial buildings:
-CMU shells, brick veneer, tenant improvements, storefront knee walls
-Healthcare and education:
-CMU partitions, bearing walls, fire-rated walls
-Industrial and warehouses:
-CMU walls, firewalls, equipment enclosures
-Civic and public:
-schools, fire stations, courthouses, community buildings
-Restoration and hardscape:
-tuckpointing, repairs, pavers, segmental retaining walls
+Residential landscapes:
+front and back yards, planting plans, lawns, patios, walkways
+Commercial and HOA properties:
+corporate campuses, retail centers, apartment communities, HOAs
+Hardscape and outdoor living:
+pavers, retaining walls, steps, decks, fire features
+Irrigation and lighting:
+zones, drip systems, landscape lighting, controllers
+Parks and public spaces:
+trails, plazas, planting, site furnishings
+Lawn care and maintenance routes:
+mowing, edging, fertilizing, mulching, seasonal cleanup
 
-Masonry CSI Divisions and Standards
-Every masonry scope is organized by MasterFormat section and tied to the standards your specs reference.
-Division 04 Masonry
-Related work
-Standards
-Common Work Results for Masonry (04 05 00)
-Concrete Reinforcing (03 20 00)
-TMS 402 and TMS 602 masonry code and specification
-Unit Masonry (04 20 00)
-Flashing and Sheet Metal (07 60 00)
-ASTM C90 for concrete masonry units
-Concrete Unit Masonry (04 22 00)
-Joint Sealants (07 92 00)
-ASTM C216 for facing brick
-Stone Assemblies (04 40 00)
-Metal Fabrications (05 50 00)
-ASTM C270 for mortar and ASTM C476 for grout
-Maintenance of Masonry (04 01 00)
-
-Masonry Estimating Software We Use
-We work in the same takeoff and cost tools masonry teams know, then deliver files you can open right away.
+Landscape Estimating Software We Use
+We work in the same takeoff and cost tools estimators know, then deliver files you can open right away.
 Category
 Tools
 Digital takeoff:
 Bluebeam Revu, PlanSwift, On-Screen Takeoff, STACK
 Cost data:
 RSMeans data, CostWorks
+Inputs:
+landscape plans, or aerial and site images you send
 Delivery:
 Excel and PDF, in your template or ours
 
 Every estimate runs through the relevant software, then a second estimator reviews it by hand.
-What We Need to Start Your Masonry Estimate
+What We Need to Start Your Landscape Estimate
 Send what you have, and your quote confirms what can be priced.
-Drawings and specs
+Plans and scope
 Project details
-Architectural elevations, wall sections, and details (PDF or DWG)
+Landscape, planting, irrigation, and hardscape plans (PDF or DWG)
 Project ZIP code and bid due date
-Structural sheets showing reinforcement, bond beams, and lintels
-Scope needed: block, brick, stone, or all
-Division 04 specs, including unit types and mortar
-Preferred template or format
+Or aerial and site images with the property address and boundaries
+Services needed: installation, maintenance, or both
+Plant schedules, legends, and specs
+Your production rates or pricing sheets, if you have them
 
-What Your Masonry Estimate Includes
-An itemized package you can bid from, with every wall and unit accounted for.
-Wall area takeoff: by masonry type, openings deducted
-Unit counts: block, brick, and stone by size
-Mortar and grout: quantities tied to unit count
-Reinforcement: rebar, joint reinforcement, and anchors
-Labor and scaffolding: crew hours and access
-Material pricing: units and sand by ZIP code
+What Your Landscape Estimate Includes
+Our landscape estimates arrive as an itemized package you can bid from, with every area and plant accounted for.
+Area takeoff: turf, beds, and hardscape by zone
+Material volumes: cubic yards, tons, and counts
+Plant counts: by species and size
+Irrigation and lighting: counts and runs
+Labor and equipment: hours, crews, and rentals
+Material pricing: plants, stone, and mulch by ZIP code
 Assumptions and exclusions logs: written down
 Marked-up plan sheets: color-coded to show what was counted
 Overhead and profit: on its own line
 Excel and PDF files: by CSI division or your cost codes
 
-Who Uses Our Masonry Estimating Services
-Teams that need dependable masonry numbers fast.
-Masonry Contractors
-Brick and Block Layers
-Stone Veneer Installers
-General Contractors
-Home Builders
-Developers
-Architects and Engineers
-Owners and Project Managers
-
-Why Contractors Hire Us for Masonry Estimating
+Why Contractors Hire Us for Landscape Estimating
 Speed, clear pricing, and a written trail for every number.
 24 to 48 Hour Turnaround
 Free Quote First
-Wall-by-Wall Takeoffs
+Area-by-Area Takeoffs
 Second-Estimator Check
 ZIP-Code Pricing
 NDA on Request
 Excel and PDF Files
 Nationwide Remote Service
 
-Our masonry takeoff services work project by project. Construction Estimations is an estimating company on call, with masonry estimators for hire when your bid calendar fills up.
-Masonry Estimating Pricing and Turnaround
+Our landscape estimating services work project by project, from landscape bidding and estimating to landscape quoting for maintenance routes. Construction Estimations is an estimating company on call, with a landscape estimator for hire when your bid calendar fills up.
+Landscape Estimating Pricing and Turnaround
 You see the price first, and most estimates arrive in 24 to 48 hours.
 What affects your quote
 Why it matters
-Wall area and number of wall types:
+Project size and number of areas:
 more area means more measuring time
-Reinforcement and grout scope:
-heavier reinforcement adds takeoff lines
-Mix of block, brick, and stone:
-each material adds its own quantities
+Plan or image quality:
+clear plans and images move faster
+Scope mix:
+softscape, hardscape, irrigation, and lighting each add a takeoff
 Bid due date:
 tell us when you upload
 
-Masonry Estimating Services Near Me: Nationwide Coverage
-Searching for masonry estimating services near me? We work online with contractors in all 50 states.
+Landscape Estimating Services Near Me: Nationwide Coverage
+Searching for landscape estimating services near me? We work online with contractors in all 50 states.
 ZIP-code pricing builds in local labor and material rates, so you do not need a local office.
-free masonry estimate Utah
-masonry estimating services California
-masonry estimating services Illinois
-masonry estimating services Pennsylvania
-masonry estimating services Michigan
-masonry estimating services Georgia
-masonry estimating services Arizona
-masonry estimating services Minnesota
+landscape estimating services California
+landscape estimating services Texas
+landscape estimating services Florida
+landscape estimating services Georgia
+landscape estimating services Arizona
+landscape estimating services Illinois
+landscape estimating services Pennsylvania
+landscape estimating services Minnesota
 
-Masonry Estimating FAQs
-What do masonry estimating services include?
-A takeoff by wall type, unit counts, mortar, grout, and reinforcement, plus labor, material, and access pricing, overhead and profit, and written assumptions and exclusions. You receive the package in Excel and PDF.
-Can I get a free masonry estimate?
-The quote is free. You see the price for your masonry estimate before any work starts, and you approve it only if it fits. Upload your plans to get a free masonry estimate quote.
-How long does a masonry takeoff take?
-Most masonry takeoffs and estimates are delivered in 24 to 48 hours. Large buildings or incomplete plan sets can take longer, so share your bid due date when you upload.
-How do you calculate bricks and blocks for a wall?
-We measure wall area, deduct openings, and multiply by units per square foot, which is 1.125 for standard 8 by 8 by 16 block and about 6.75 for modular brick. Waste is shown as a separate allowance.
-Do you include grout and rebar in a masonry takeoff?
-Yes. We take off vertical rebar, joint reinforcement, anchors, and grout fill from your structural details. If your scope excludes them, say so and we list them as exclusions.
-Can I order a masonry takeoff service without a full estimate?
-Yes. Our masonry takeoff service delivers measured quantities by wall type on its own. Use it to request supplier quotes, order units, or build your own masonry estimate.
-Do you offer a free masonry estimate in Utah?
-We are not a Utah masonry contractor, but we price masonry for Utah masons, builders, and contractors. Upload your plans for a free quote, then receive your estimate in Excel and PDF.
-What is the difference between a masonry takeoff and a masonry estimate?
-A takeoff measures quantities, such as wall area, unit counts, and rebar weight. An estimate then prices those quantities with labor, material, access, overhead, and profit so you can bid.
-Send Your Plans. Get Every Block, Brick, and Stone Counted.
-Upload your plans to Construction Estimations for masonry estimating services with a free quote before work starts. Buttons: Get Free Masonry Quote | Upload Masonry Plans
+Landscape Estimating FAQs
+What do landscape estimating services include?
+A takeoff of turf, beds, plants, hardscape, irrigation, and lighting, converted to cubic yards, tons, and counts, plus material, labor, and equipment pricing, overhead and profit, and written assumptions. You receive the package in Excel and PDF.
+Do you offer a landscape free estimate?
+The quote is free. You see the price for your landscape estimate before any work starts, and you approve it only if it fits. Landscaping free estimates for a home project come from local landscapers, and our takeoff can serve as your price baseline.
+How long does a landscape takeoff take?
+Most landscape takeoffs and estimates are delivered in 24 to 48 hours. Large properties or unclear plans can take longer, so share your bid due date when you upload.
+What is automated landscape estimating?
+It uses software to measure properties from plans or aerial images and turn the measurements into quantities and prices. Our estimators use digital takeoff tools, and a second estimator checks the numbers before you quote.
+Why do landscape contractors use automated estimating?
+To measure faster, quote more properties, and price every job the same way. Automation cuts site visits and drive time, but measurements and rates still need a human check, which is what our review step does.
+How do landscape contractors get automated estimates?
+They use aerial measurement tools, plan-based takeoff software, or estimating platforms, or they outsource the takeoff. Upload your plans or aerial images here, and we return an itemized estimate in Excel and PDF.
+How to get automated estimates for commercial landscaping?
+Send landscape plans or aerial images with the boundaries for each property. We measure by service zone, price installation and maintenance separately, and deliver one itemized estimate per site.
+How do you do a landscaping estimate?
+Measure each area, convert areas to materials using depth, price labor and equipment, then add overhead and profit. Our estimates show each step, so you can check or adjust them before you bid.
+Can I order landscaping takeoff services without a full estimate?
+Yes. Our landscape takeoff services deliver measured areas, volumes, and counts on their own. Use them to request supplier quotes, order materials, or build your own landscape estimate.
+Do you offer landscape design estimates?
+Yes. We turn design plans into budget numbers with allowances for plants, hardscape, and features. Designers and clients can see how cost changes as the design develops.
+Send Your Plans. Get Every Bed, Plant, and Paver Counted.
+Upload your plans to Construction Estimations for landscape estimating services with a free quote before work starts. Buttons: Upload Landscape Plans | Request My Free Quote
 NDA on request. Approve only if the quote fits.

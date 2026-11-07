@@ -13,35 +13,21 @@ import { Button } from "@/components/ui/Button";
 
 type MenuKey = "services" | "trades";
 
-function MenuPanel({
-  label,
-  items,
-}: {
-  label: string;
-  items: { title: string; href: string }[];
-}) {
+function MenuPanel({ items }: { items: { title: string; href: string }[] }) {
   return (
-    <div
-      id={`${label.toLowerCase()}-menu`}
-      className="absolute left-0 top-full z-50 w-[360px] overflow-hidden rounded-xl border border-line bg-surface shadow-[var(--shadow-soft)]"
-    >
-      <div className="border-b border-line bg-brand px-6 py-3">
-        <p className="text-sm font-semibold text-surface">{label}</p>
-      </div>
-      <div className="p-5">
-      <ul className="grid gap-y-1">
+    <div className="absolute left-0 top-full z-50 w-[360px] overflow-hidden rounded-xl border border-line bg-surface shadow-[var(--shadow-soft)]">
+      <ul className="grid gap-y-1 p-3">
         {items.map((item) => (
           <li key={item.title}>
             <Link
               href={item.href}
-              className="block rounded-lg px-2 py-2 text-sm font-medium text-ink hover:bg-brand-tint hover:text-brand-strong"
+              className="block rounded-lg px-3 py-2 text-sm font-medium text-ink hover:bg-brand-tint hover:text-brand-strong"
             >
               {item.title}
             </Link>
           </li>
         ))}
       </ul>
-      </div>
     </div>
   );
 }
@@ -164,7 +150,7 @@ export function Header() {
                   </span>
                   {expanded ? (
                     <div id={menuId + menu}>
-                      <MenuPanel label={item.label} items={items} />
+                      <MenuPanel items={items} />
                     </div>
                   ) : null}
                 </div>
@@ -192,7 +178,7 @@ export function Header() {
               {phone}
             </a>
           ) : null}
-          <Button href="/contact/">{homepage.hero.secondaryCta}</Button>
+          <Button href="/contact/">{homepage.hero.primaryCta}</Button>
         </div>
         <Dialog.Root open={drawer} onOpenChange={setDrawer}>
           <Dialog.Trigger asChild>
@@ -222,15 +208,24 @@ export function Header() {
                     const items = menuItemsFor(menu);
                     return (
                       <div key={item.label} className="border-b border-line">
-                        <button
-                          type="button"
-                          className="flex w-full items-center justify-between py-4 text-left text-lg font-medium text-ink"
-                          aria-expanded={open}
-                          onClick={() => setDrawerSection((value) => (value === menu ? null : menu))}
-                        >
-                          {item.label}
-                          <CaretDown size={16} aria-hidden="true" className={cn(open && "rotate-180")} />
-                        </button>
+                        <div className="flex items-center gap-1">
+                          <Link
+                            href={item.href}
+                            onClick={closeMenus}
+                            className="flex-1 py-4 text-lg font-medium text-ink"
+                          >
+                            {item.label}
+                          </Link>
+                          <button
+                            type="button"
+                            className="inline-flex h-11 w-11 items-center justify-center"
+                            aria-expanded={open}
+                            aria-label={`${item.label} submenu`}
+                            onClick={() => setDrawerSection((value) => (value === menu ? null : menu))}
+                          >
+                            <CaretDown size={16} aria-hidden="true" className={cn(open && "rotate-180")} />
+                          </button>
+                        </div>
                         {open ? (
                           <ul className="pb-4 pl-2">
                             {items.map((sub) => (
@@ -269,7 +264,7 @@ export function Header() {
                   </a>
                 ) : null}
                 <Button href="/contact/" onClick={closeMenus}>
-                  {homepage.hero.secondaryCta}
+                  {homepage.hero.primaryCta}
                 </Button>
               </div>
             </Dialog.Content>

@@ -38,7 +38,7 @@ export function Hero() {
           <p className="mt-4 max-w-[58ch] text-base leading-[1.6] text-surface/90 lg:text-[17px]">{hero.body}</p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <Button href="/contact/">{hero.primaryCta}</Button>
-            <Button href="/contact/" variant="onBlue">
+            <Button href="#services" variant="onBlue">
               {hero.secondaryCta}
             </Button>
             <PhoneLink
