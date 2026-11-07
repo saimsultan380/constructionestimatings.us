@@ -17,10 +17,12 @@ export function WhyChoose() {
         className="object-cover"
       />
       <div className="relative mx-auto w-full max-w-[1240px] px-4 min-[480px]:px-6">
-        <div className="max-w-[760px] rounded-xl bg-surface p-6 shadow-[var(--shadow-soft)] sm:p-8 lg:p-10">
-          <h2 className="font-heading text-[28px] font-semibold leading-[1.15] lg:text-[40px]">{why.title}</h2>
-          <p className="mt-4 max-w-[42ch] text-ink-soft lg:text-[17px]">{why.body}</p>
-          <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+        <div className="w-full rounded-xl bg-surface p-6 shadow-[var(--shadow-soft)] sm:p-8 lg:p-10">
+          <h2 className="max-w-[22ch] font-heading text-[28px] font-semibold leading-[1.15] lg:text-[40px]">
+            {why.title}
+          </h2>
+          <p className="mt-4 max-w-[68ch] text-ink-soft lg:text-[17px]">{why.body}</p>
+          <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {why.items.map((item, index) => {
               const Icon = icons[index];
               return (

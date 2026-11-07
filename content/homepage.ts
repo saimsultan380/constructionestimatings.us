@@ -517,35 +517,35 @@ export const homepage = {
   ],
   publishedTrades: [
     {
-      title: "Concrete Estimating Services",
+      title: "Concrete Estimating",
       href: "/concrete-estimating-services/",
     },
     {
-      title: "Painting Estimating Services",
+      title: "Painting Estimating",
       href: "/painting-estimating-services/",
     },
     {
-      title: "Fireproofing Estimating Services",
+      title: "Fireproofing Estimating",
       href: "/fireproofing-estimating-services/",
     },
     {
-      title: "Electrical Estimating Services",
+      title: "Electrical Estimating",
       href: "/electrical-estimating-services/",
     },
     {
-      title: "Masonry Estimating Services",
+      title: "Masonry Estimating",
       href: "/masonry-estimating-services/",
     },
     {
-      title: "Rebar Estimating Services",
+      title: "Rebar Estimating",
       href: "/rebar-estimating-services/",
     },
     {
-      title: "Equipment Estimating Services",
+      title: "Equipment Estimating",
       href: "/equipment-estimating-services/",
     },
     {
-      title: "Landscape Estimating Services",
+      title: "Landscape Estimating",
       href: "/landscape-estimating-services/",
     },
   ],
