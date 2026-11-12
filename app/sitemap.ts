@@ -76,6 +76,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: absoluteUrl("/renovation-estimating-services/"),
+      lastModified: "2026-11-12",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/demolition-estimating-services/"),
+      lastModified: "2026-11-12",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/xactimate-estimating-services/"),
+      lastModified: "2026-11-12",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: absoluteUrl("/about/"),
       lastModified: "2026-11-07",
       changeFrequency: "monthly",

@@ -514,6 +514,10 @@ export const homepage = {
       title: "Industrial Estimating Services",
       href: "/industrial-estimating-services/",
     },
+    {
+      title: "Xactimate Estimating Services",
+      href: "/xactimate-estimating-services/",
+    },
   ],
   publishedTrades: [
     {
@@ -547,6 +551,14 @@ export const homepage = {
     {
       title: "Landscape Estimating",
       href: "/landscape-estimating-services/",
+    },
+    {
+      title: "Renovation Estimating",
+      href: "/renovation-estimating-services/",
+    },
+    {
+      title: "Demolition Estimating",
+      href: "/demolition-estimating-services/",
     },
   ],
   nav: [
