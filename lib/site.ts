@@ -14,7 +14,8 @@ export const siteUrl = normalizeSiteOrigin(
   process.env.NEXT_PUBLIC_SITE_URL || `https://${siteHost}`,
 );
 
-export const phone = process.env.NEXT_PUBLIC_PHONE?.trim() || "";
+/** Prefer env; otherwise use the site toll-free number. */
+export const phone = process.env.NEXT_PUBLIC_PHONE?.trim() || "1-888-850-0837";
 /** Prefer env; otherwise use info@ on the canonical domain. */
 export const email =
   process.env.NEXT_PUBLIC_EMAIL?.trim() || `info@${siteHost}`;
