@@ -560,6 +560,10 @@ export const homepage = {
       title: "Demolition Estimating",
       href: "/demolition-estimating-services/",
     },
+    {
+      title: "Framing Estimating",
+      href: "/framing-estimating-services/",
+    },
   ],
   nav: [
     { href: "/", label: "Home" },

@@ -94,6 +94,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: absoluteUrl("/framing-estimating-services/"),
+      lastModified: "2026-11-15",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: absoluteUrl("/about/"),
       lastModified: "2026-11-07",
       changeFrequency: "monthly",
