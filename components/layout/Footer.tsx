@@ -34,7 +34,7 @@ export function Footer() {
         <div>
           <p className="font-heading text-base font-semibold text-brand-strong">Services</p>
           <ul className="mt-4 space-y-2.5">
-            {homepage.publishedServices.map((item) => (
+            {homepage.footer.services.map((item) => (
               <li key={item.href}>
                 <Link href={item.href} className="text-sm text-ink hover:text-brand-strong hover:underline">
                   {item.title}
@@ -47,7 +47,7 @@ export function Footer() {
         <div>
           <p className="font-heading text-base font-semibold text-brand-strong">Trades</p>
           <ul className="mt-4 space-y-2.5">
-            {homepage.publishedTrades.map((item) => (
+            {homepage.footer.trades.map((item) => (
               <li key={item.href}>
                 <Link href={item.href} className="text-sm text-ink hover:text-brand-strong hover:underline">
                   {item.title}

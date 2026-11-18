@@ -21,7 +21,7 @@ export default function EquipmentEstimatingPage() {
       <Breadcrumbs
         items={[
           { name: "Home", path: "/" },
-          { name: "Trades", path: "/concrete-estimating-services/" },
+          { name: "Services", path: "/commercial-estimating-service/" },
           { name: "Equipment Estimating", path },
         ]}
       />

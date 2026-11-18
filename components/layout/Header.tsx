@@ -13,36 +13,146 @@ import { Button } from "@/components/ui/Button";
 
 type MenuKey = "services" | "trades";
 
-function MenuPanel({ items }: { items: { title: string; href: string }[] }) {
-  return (
-    <div className="absolute left-0 top-full z-50 w-[360px] overflow-hidden rounded-xl border border-line bg-surface shadow-[var(--shadow-soft)]">
-      <ul className="grid gap-y-1 p-3">
-        {items.map((item) => (
-          <li key={item.title}>
-            <Link
-              href={item.href}
-              className="block rounded-lg px-3 py-2 text-sm font-medium text-ink hover:bg-brand-tint hover:text-brand-strong"
-            >
-              {item.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+type MenuItem = { title: string; href: string };
+type MenuGroup = { label: string; items: MenuItem[] };
+
+const serviceGroupPlan = [
+  {
+    label: "Project types",
+    hrefs: [
+      "/commercial-estimating-service/",
+      "/residential-estimating-services/",
+      "/industrial-estimating-services/",
+      "/renovation-estimating-services/",
+    ],
+  },
+  {
+    label: "Takeoff and specialty",
+    hrefs: [
+      "/construction-takeoff-services/",
+      "/blueprint-estimating-services/",
+      "/mep-estimating-services/",
+      "/equipment-estimating-services/",
+      "/xactimate-estimating-services/",
+      "/quantity-surveyor-services/",
+    ],
+  },
+] as const;
+
+const tradeGroupPlan = [
+  {
+    label: "Structure",
+    hrefs: [
+      "/concrete-estimating-services/",
+      "/masonry-estimating-services/",
+      "/rebar-estimating-services/",
+      "/framing-estimating-services/",
+      "/structural-steel-estimating-services/",
+    ],
+  },
+  {
+    label: "Envelope and finishes",
+    hrefs: [
+      "/roofing-estimating-services/",
+      "/gutter-estimating-services/",
+      "/openings-estimating-services/",
+      "/painting-estimating-services/",
+      "/drywall-estimating-services/",
+      "/insulation-estimating-services/",
+      "/waterproofing-estimating-services/",
+      "/fireproofing-estimating-services/",
+      "/flooring-estimating-services/",
+    ],
+  },
+  {
+    label: "MEP and site",
+    hrefs: [
+      "/electrical-estimating-services/",
+      "/hvac-estimating-services/",
+      "/duct-takeoff-services/",
+      "/mechanical-estimating-services/",
+      "/plumbing-estimating-services/",
+      "/landscape-estimating-services/",
+      "/sitework-estimating-services/",
+      "/demolition-estimating-services/",
+    ],
+  },
+] as const;
+
+function groupsFor(menu: MenuKey): MenuGroup[] {
+  const source = menu === "trades" ? homepage.publishedTrades : homepage.publishedServices;
+  const plan = menu === "trades" ? tradeGroupPlan : serviceGroupPlan;
+  const used = new Set<string>();
+  const groups = plan.map((group) => {
+    const items = group.hrefs.flatMap((href) => {
+      const match = source.find((item) => item.href === href);
+      if (!match) return [];
+      used.add(match.href);
+      return [{ title: match.title, href: match.href }];
+    });
+    return { label: group.label, items };
+  });
+  const extra = source.filter((item) => !used.has(item.href));
+  if (extra.length > 0) {
+    groups.push({ label: "More", items: extra.map((item) => ({ title: item.title, href: item.href })) });
+  }
+  return groups.filter((group) => group.items.length > 0);
 }
 
-function menuItemsFor(menu: MenuKey) {
-  if (menu === "trades") {
-    return homepage.publishedTrades.map((item) => ({
-      title: item.title,
-      href: item.href,
-    }));
-  }
-  return homepage.publishedServices.map((item) => ({
-    title: item.title,
-    href: item.href,
-  }));
+function MegaMenu({
+  menu,
+  pathname,
+  onNavigate,
+}: {
+  menu: MenuKey;
+  pathname: string;
+  onNavigate: () => void;
+}) {
+  const groups = groupsFor(menu);
+  return (
+    <div className="absolute left-1/2 top-full z-50 w-screen -translate-x-1/2 border-b border-line bg-surface shadow-[var(--shadow)]">
+      <div className="mx-auto w-full max-w-[1240px] px-6 py-8">
+        <p className="font-heading text-sm font-semibold text-brand-strong">
+          {menu === "trades" ? "Trades" : "Services"}
+        </p>
+        <div className={cn("mt-5 grid gap-8", groups.length > 2 ? "grid-cols-3" : "grid-cols-2")}>
+          {groups.map((group) => (
+            <div key={group.label}>
+              <p className="border-b border-line pb-2 font-heading text-base font-semibold text-ink">{group.label}</p>
+              <ul className="mt-2">
+                {group.items.map((item) => {
+                  const current = pathname === item.href;
+                  return (
+                    <li key={item.href}>
+                      <Link
+                        href={item.href}
+                        onClick={onNavigate}
+                        aria-current={current ? "page" : undefined}
+                        className={cn(
+                          "block rounded-lg px-2 py-2 text-sm font-medium hover:bg-brand-tint hover:text-brand-strong",
+                          current ? "text-brand-strong" : "text-ink",
+                        )}
+                      >
+                        {item.title}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
+        </div>
+        <div className="mt-6 flex items-center justify-between gap-6 border-t border-line pt-5">
+          <p className="text-sm text-ink-soft">
+            Free quote before any work starts. Most estimates are back in 24 to 48 hours.
+          </p>
+          <Button href="/contact/" onClick={onNavigate}>
+            {homepage.hero.primaryCta}
+          </Button>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export function Header() {
@@ -67,6 +177,12 @@ export function Header() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, []);
+
+  useEffect(() => {
+    setOpenMenu(null);
+    setDrawer(false);
+    setDrawerSection(null);
+  }, [pathname]);
 
   const closeMenus = () => {
     setOpenMenu(null);
@@ -102,7 +218,15 @@ export function Header() {
           </div>
         </div>
       </div>
-      <div className="mx-auto flex h-[72px] w-full max-w-[1240px] items-center justify-between gap-4 px-4 min-[480px]:px-6">
+      <div
+        className="relative mx-auto flex h-[72px] w-full max-w-[1240px] items-center justify-between gap-4 px-4 min-[480px]:px-6"
+        onMouseLeave={() => setOpenMenu(null)}
+        onBlur={(event) => {
+          if (!event.currentTarget.contains(event.relatedTarget as Node | null)) {
+            setOpenMenu(null);
+          }
+        }}
+      >
         <Link href="/" aria-label="Construction Estimatings home" onClick={closeMenus}>
           <Logo />
         </Link>
@@ -111,29 +235,21 @@ export function Header() {
             const current = item.href === "/" ? pathname === "/" : pathname === item.href || pathname.startsWith(item.href);
             const menu = "menu" in item ? (item.menu as MenuKey | undefined) : undefined;
             if (menu === "services" || menu === "trades") {
-              const items = menuItemsFor(menu);
               const expanded = openMenu === menu;
+              const sectionCurrent =
+                menu === "services"
+                  ? homepage.publishedServices.some((entry) => pathname === entry.href)
+                  : homepage.publishedTrades.some((entry) => pathname === entry.href);
               return (
-                <div
-                  key={item.label}
-                  className="relative"
-                  onMouseEnter={() => setOpenMenu(menu)}
-                  onMouseLeave={() => setOpenMenu(null)}
-                  onFocus={() => setOpenMenu(menu)}
-                  onBlur={(event) => {
-                    if (!event.currentTarget.contains(event.relatedTarget as Node | null)) {
-                      setOpenMenu(null);
-                    }
-                  }}
-                >
+                <div key={item.label} onMouseEnter={() => setOpenMenu(menu)} onFocus={() => setOpenMenu(menu)}>
                   <span className="inline-flex items-center gap-1">
                     <Link
                       href={item.href}
                       className={cn(
                         "text-sm font-semibold hover:text-brand-strong",
-                        current ? "text-brand-strong" : "text-ink",
+                        sectionCurrent ? "text-brand-strong" : "text-ink",
                       )}
-                      aria-current={current ? "page" : undefined}
+                      aria-current={sectionCurrent ? "page" : undefined}
                     >
                       {item.label}
                     </Link>
@@ -145,14 +261,9 @@ export function Header() {
                       aria-label={`${item.label} menu`}
                       onClick={() => setOpenMenu((value) => (value === menu ? null : menu))}
                     >
-                      <CaretDown size={14} aria-hidden="true" />
+                      <CaretDown size={14} aria-hidden="true" className={cn("transition-transform", expanded && "rotate-180")} />
                     </button>
                   </span>
-                  {expanded ? (
-                    <div id={menuId + menu}>
-                      <MenuPanel items={items} />
-                    </div>
-                  ) : null}
                 </div>
               );
             }
@@ -180,6 +291,11 @@ export function Header() {
           ) : null}
           <Button href="/contact/">{homepage.hero.primaryCta}</Button>
         </div>
+        {openMenu ? (
+          <div id={menuId + openMenu} className="hidden lg:contents">
+            <MegaMenu menu={openMenu} pathname={pathname} onNavigate={closeMenus} />
+          </div>
+        ) : null}
         <Dialog.Root open={drawer} onOpenChange={setDrawer}>
           <Dialog.Trigger asChild>
             <button
@@ -205,7 +321,7 @@ export function Header() {
                   const menu = "menu" in item ? (item.menu as MenuKey | undefined) : undefined;
                   if (menu === "services" || menu === "trades") {
                     const open = drawerSection === menu;
-                    const items = menuItemsFor(menu);
+                    const groups = groupsFor(menu);
                     return (
                       <div key={item.label} className="border-b border-line">
                         <div className="flex items-center gap-1">
@@ -227,19 +343,26 @@ export function Header() {
                           </button>
                         </div>
                         {open ? (
-                          <ul className="pb-4 pl-2">
-                            {items.map((sub) => (
-                              <li key={sub.href}>
-                                <Link
-                                  href={sub.href}
-                                  onClick={closeMenus}
-                                  className="block py-2 text-base text-ink-soft hover:text-brand-strong"
-                                >
-                                  {sub.title}
-                                </Link>
-                              </li>
+                          <div className="pb-4">
+                            {groups.map((group) => (
+                              <div key={group.label} className="mt-3">
+                                <p className="px-2 font-heading text-sm font-semibold text-brand-strong">{group.label}</p>
+                                <ul className="mt-1">
+                                  {group.items.map((sub) => (
+                                    <li key={sub.href}>
+                                      <Link
+                                        href={sub.href}
+                                        onClick={closeMenus}
+                                        className="block rounded-lg px-2 py-2 text-base text-ink hover:bg-brand-tint hover:text-brand-strong"
+                                      >
+                                        {sub.title}
+                                      </Link>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
                             ))}
-                          </ul>
+                          </div>
                         ) : null}
                       </div>
                     );

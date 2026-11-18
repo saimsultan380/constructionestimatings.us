@@ -496,6 +496,24 @@ export const homepage = {
     description:
       "Construction Estimatings is a nationwide construction estimating company in the USA that provides the best construction estimating services for contractors, builders, and developers.",
     coverage: "All 50 states",
+    services: [
+      { title: "Commercial Estimating", href: "/commercial-estimating-service/" },
+      { title: "Residential Estimating", href: "/residential-estimating-services/" },
+      { title: "Industrial Estimating", href: "/industrial-estimating-services/" },
+      { title: "Construction Takeoff", href: "/construction-takeoff-services/" },
+      { title: "MEP Estimating", href: "/mep-estimating-services/" },
+      { title: "Xactimate Estimating", href: "/xactimate-estimating-services/" },
+    ],
+    trades: [
+      { title: "Concrete Estimating", href: "/concrete-estimating-services/" },
+      { title: "Electrical Estimating", href: "/electrical-estimating-services/" },
+      { title: "HVAC Estimating", href: "/hvac-estimating-services/" },
+      { title: "Plumbing Estimating", href: "/plumbing-estimating-services/" },
+      { title: "Roofing Estimating", href: "/roofing-estimating-services/" },
+      { title: "Framing Estimating", href: "/framing-estimating-services/" },
+      { title: "Drywall Estimating", href: "/drywall-estimating-services/" },
+      { title: "Sitework Estimating", href: "/sitework-estimating-services/" },
+    ],
   },
   topBar: {
     nda: "NDA on request",
@@ -515,8 +533,32 @@ export const homepage = {
       href: "/industrial-estimating-services/",
     },
     {
+      title: "Construction Takeoff Services",
+      href: "/construction-takeoff-services/",
+    },
+    {
+      title: "Blueprint Estimating Services",
+      href: "/blueprint-estimating-services/",
+    },
+    {
+      title: "MEP Estimating Services",
+      href: "/mep-estimating-services/",
+    },
+    {
+      title: "Renovation Estimating",
+      href: "/renovation-estimating-services/",
+    },
+    {
+      title: "Equipment Estimating",
+      href: "/equipment-estimating-services/",
+    },
+    {
       title: "Xactimate Estimating Services",
       href: "/xactimate-estimating-services/",
+    },
+    {
+      title: "Quantity Surveyor Services",
+      href: "/quantity-surveyor-services/",
     },
   ],
   publishedTrades: [
@@ -527,6 +569,18 @@ export const homepage = {
     {
       title: "Painting Estimating",
       href: "/painting-estimating-services/",
+    },
+    {
+      title: "Drywall Estimating",
+      href: "/drywall-estimating-services/",
+    },
+    {
+      title: "Insulation Estimating",
+      href: "/insulation-estimating-services/",
+    },
+    {
+      title: "Waterproofing Estimating",
+      href: "/waterproofing-estimating-services/",
     },
     {
       title: "Fireproofing Estimating",
@@ -545,16 +599,8 @@ export const homepage = {
       href: "/rebar-estimating-services/",
     },
     {
-      title: "Equipment Estimating",
-      href: "/equipment-estimating-services/",
-    },
-    {
       title: "Landscape Estimating",
       href: "/landscape-estimating-services/",
-    },
-    {
-      title: "Renovation Estimating",
-      href: "/renovation-estimating-services/",
     },
     {
       title: "Demolition Estimating",
@@ -563,6 +609,46 @@ export const homepage = {
     {
       title: "Framing Estimating",
       href: "/framing-estimating-services/",
+    },
+    {
+      title: "Structural Steel Estimating",
+      href: "/structural-steel-estimating-services/",
+    },
+    {
+      title: "Roofing Estimating",
+      href: "/roofing-estimating-services/",
+    },
+    {
+      title: "Gutter Estimating",
+      href: "/gutter-estimating-services/",
+    },
+    {
+      title: "Openings Estimating",
+      href: "/openings-estimating-services/",
+    },
+    {
+      title: "HVAC Estimating",
+      href: "/hvac-estimating-services/",
+    },
+    {
+      title: "Duct Takeoff",
+      href: "/duct-takeoff-services/",
+    },
+    {
+      title: "Mechanical Estimating",
+      href: "/mechanical-estimating-services/",
+    },
+    {
+      title: "Plumbing Estimating",
+      href: "/plumbing-estimating-services/",
+    },
+    {
+      title: "Flooring Estimating",
+      href: "/flooring-estimating-services/",
+    },
+    {
+      title: "Sitework Estimating",
+      href: "/sitework-estimating-services/",
     },
   ],
   nav: [
