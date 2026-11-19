@@ -83,7 +83,7 @@ function groupsFor(menu: MenuKey): MenuGroup[] {
   const source = menu === "trades" ? homepage.publishedTrades : homepage.publishedServices;
   const plan = menu === "trades" ? tradeGroupPlan : serviceGroupPlan;
   const used = new Set<string>();
-  const groups = plan.map((group) => {
+  const groups: MenuGroup[] = plan.map((group) => {
     const items = group.hrefs.flatMap((href) => {
       const match = source.find((item) => item.href === href);
       if (!match) return [];
