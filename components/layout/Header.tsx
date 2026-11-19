@@ -11,7 +11,7 @@ import { cn } from "@/lib/cn";
 import { Logo } from "@/components/layout/Logo";
 import { Button } from "@/components/ui/Button";
 
-type MenuKey = "services" | "trades";
+type MenuKey = "services" | "trades" | "areas";
 
 type MenuItem = { title: string; href: string };
 type MenuGroup = { label: string; items: MenuItem[] };
@@ -80,6 +80,15 @@ const tradeGroupPlan = [
 ] as const;
 
 function groupsFor(menu: MenuKey): MenuGroup[] {
+  if (menu === "areas") {
+    return [
+      {
+        label: "States",
+        items: homepage.publishedAreas.map((item) => ({ title: item.title, href: item.href })),
+      },
+    ].filter((group) => group.items.length > 0);
+  }
+
   const source = menu === "trades" ? homepage.publishedTrades : homepage.publishedServices;
   const plan = menu === "trades" ? tradeGroupPlan : serviceGroupPlan;
   const used = new Set<string>();
@@ -113,7 +122,7 @@ function MegaMenu({
     <div className="absolute left-1/2 top-full z-50 w-screen -translate-x-1/2 border-b border-line bg-surface shadow-[var(--shadow)]">
       <div className="mx-auto w-full max-w-[1240px] px-6 py-8">
         <p className="font-heading text-sm font-semibold text-brand-strong">
-          {menu === "trades" ? "Trades" : "Services"}
+          {menu === "trades" ? "Trades" : menu === "areas" ? "Areas" : "Services"}
         </p>
         <div className={cn("mt-5 grid gap-8", groups.length > 2 ? "grid-cols-3" : "grid-cols-2")}>
           {groups.map((group) => (
@@ -234,12 +243,14 @@ export function Header() {
           {homepage.nav.map((item) => {
             const current = item.href === "/" ? pathname === "/" : pathname === item.href || pathname.startsWith(item.href);
             const menu = "menu" in item ? (item.menu as MenuKey | undefined) : undefined;
-            if (menu === "services" || menu === "trades") {
+            if (menu === "services" || menu === "trades" || menu === "areas") {
               const expanded = openMenu === menu;
               const sectionCurrent =
                 menu === "services"
                   ? homepage.publishedServices.some((entry) => pathname === entry.href)
-                  : homepage.publishedTrades.some((entry) => pathname === entry.href);
+                  : menu === "trades"
+                    ? homepage.publishedTrades.some((entry) => pathname === entry.href)
+                    : homepage.publishedAreas.some((entry) => pathname === entry.href);
               return (
                 <div key={item.label} onMouseEnter={() => setOpenMenu(menu)} onFocus={() => setOpenMenu(menu)}>
                   <span className="inline-flex items-center gap-1">
@@ -319,7 +330,7 @@ export function Header() {
               <nav aria-label="Mobile" className="mt-8 flex flex-col">
                 {homepage.nav.map((item) => {
                   const menu = "menu" in item ? (item.menu as MenuKey | undefined) : undefined;
-                  if (menu === "services" || menu === "trades") {
+                  if (menu === "services" || menu === "trades" || menu === "areas") {
                     const open = drawerSection === menu;
                     const groups = groupsFor(menu);
                     return (

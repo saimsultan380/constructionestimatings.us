@@ -1,0 +1,133 @@
+export const florida = {
+  seo: {
+    title: "Construction Estimating Services Florida | Free Quote",
+    description:
+      "Construction estimating services Florida contractors use for takeoffs and bids. Upload plans, get a free quote, and ZIP-code pricing in 24 to 48 hours.",
+    path: "/florida-construction-estimating-services/",
+  },
+  hero: {
+    title: "Construction Estimating Services Florida Contractors Use for Bid Day",
+    body: "Quantities and prices are measured from your drawings with Florida ZIP-code labor and material rates. Contractors across Miami, Orlando, Tampa, Jacksonville, and the Panhandle upload plans, get a free quote first, and receive an itemized estimate in 24 to 48 hours.",
+    stats: [
+      { value: "24 to 48 hrs", label: "typical turnaround" },
+      { value: "ZIP rates", label: "priced to your Florida market" },
+      { value: "All metros", label: "served remotely statewide" },
+      { value: "$0", label: "quote before work starts" },
+    ],
+    primaryCta: "Upload Florida Plans",
+    secondaryCta: "Get a Free Quote",
+    note: "Free quote first. NDA on request. Approve only if it fits. We estimate from plans. We do not pull permits, hold a Florida contractor license, or claim a Florida office.",
+  },
+  answer: {
+    title: "Quick Answer: How Construction Estimating Services Florida Bids Get Priced",
+    body: "Construction estimating services Florida contractors order start with a digital takeoff, then apply local rates for the project ZIP code. Florida Building Code wind, flood, and HVHZ notes are followed when the documents show them. You get a free quote first, then Excel and PDF files.",
+  },
+  snapshot: {
+    title: "Florida Estimating Snapshot: FBC, Wind, Flood, and HVHZ",
+    intro: "Florida code, wind speed, and flood zone change what belongs on the estimate.",
+    columns: ["Factor", "What applies in Florida", "Why it matters for estimates"],
+    rows: [
+      ["Building code", "The 2023 Florida Building Code, based on the 2021 I-codes, is the statewide code. The 2026 edition is scheduled to take effect December 31, 2026.", "Confirm which FBC edition the permit uses before locking assemblies"],
+      ["Energy", "The Florida Building Code, Energy Conservation, follows the 2021 IECC with Florida amendments. Climate zones are 1 and 2.", "Insulation and HVAC quantities follow the energy forms"],
+      ["Wind", "Design wind speeds are high statewide and are highest near the coast. Impact opening and roof notes are common.", "Roof, openings, and tie-down quantities follow the wind notes"],
+      ["HVHZ", "Miami-Dade and Broward are a High-Velocity Hurricane Zone with product-approval rules that are stricter than the rest of the state.", "HVHZ product lines are priced only when the set is in that zone"],
+      ["Flood", "Much of coastal Florida sits in mapped flood hazard areas.", "Finished floor, flood vents, and foundation scope follow the flood notes"],
+      ["Licensing", "The Department of Business and Professional Regulation licenses certified contractors statewide and registered contractors for a local area.", "We estimate from drawings. Licensing stays with the contractor"],
+      ["Prevailing wage", "Florida does not have a broad state prevailing wage law. Federal projects still follow Davis-Bacon when required.", "Use wage tables only when the documents name them"],
+      ["Common project types", "Multifamily, hospitality, healthcare, schools, logistics, and coastal single-family.", "Wind and flood details show up on most coastal sets"],
+    ],
+  },
+  localImpact: {
+    title: "How Florida Conditions Change a Construction Estimate",
+    intro: "An inland Orlando shell and a Miami HVHZ tower do not share the same opening or roof lines.",
+    columns: ["Local factor", "What we adjust"],
+    rows: [
+      ["ZIP-code labor", "Crew rates follow the city and region, not a national average"],
+      ["Wind design", "Roof and opening quantities follow the wind notes"],
+      ["HVHZ products", "Miami-Dade and Broward product lines stay separate when required"],
+      ["Flood zone", "Foundation and floor elevations follow the flood notes"],
+      ["Energy zone", "Insulation and HVAC follow zone 1 or 2 as shown"],
+      ["Federal wage schedules", "Davis-Bacon rates are used only when required"],
+    ],
+  },
+  services: {
+    title: "Construction Estimating Services Available for Florida Projects",
+    intro: "Pick the service or trade page that matches the package you are bidding.",
+    groups: [
+      { label: "Project types", links: [{ title: "Commercial Estimating", href: "/commercial-estimating-service/" }, { title: "Residential Estimating", href: "/residential-estimating-services/" }, { title: "Industrial Estimating", href: "/industrial-estimating-services/" }, { title: "Renovation Estimating", href: "/renovation-estimating-services/" }] },
+      { label: "Takeoff and specialty", links: [{ title: "Construction Takeoff", href: "/construction-takeoff-services/" }, { title: "Blueprint Estimating", href: "/blueprint-estimating-services/" }, { title: "MEP Estimating", href: "/mep-estimating-services/" }, { title: "Xactimate Estimating", href: "/xactimate-estimating-services/" }] },
+      { label: "Trades often bid in Florida", links: [{ title: "Concrete Estimating", href: "/concrete-estimating-services/" }, { title: "Electrical Estimating", href: "/electrical-estimating-services/" }, { title: "HVAC Estimating", href: "/hvac-estimating-services/" }, { title: "Plumbing Estimating", href: "/plumbing-estimating-services/" }, { title: "Roofing Estimating", href: "/roofing-estimating-services/" }, { title: "Sitework Estimating", href: "/sitework-estimating-services/" }] },
+    ],
+  },
+  cities: {
+    title: "Florida Cities and Regions We Price Remotely",
+    intro: "Construction estimating services Florida metros use the same remote workflow. City pages will link here as they publish.",
+    items: ["Miami", "Orlando", "Tampa", "Jacksonville", "St. Petersburg", "Fort Lauderdale", "Tallahassee", "Cape Coral", "Hialeah", "Port St. Lucie", "Pembroke Pines", "Gainesville"],
+  },
+  projects: {
+    title: "Project Types Common on Florida Bid Lists",
+    intro: "Coastal wind zones and inland growth keep different packages moving.",
+    groups: [
+      { title: "Multifamily", body: "podium and garden apartments in the major metros" },
+      { title: "Hospitality", body: "hotels and resorts with wind and flood notes" },
+      { title: "Healthcare and education", body: "hospitals, clinics, and school additions" },
+      { title: "Logistics", body: "distribution shells along the interstates" },
+      { title: "HVHZ commercial", body: "Miami-Dade and Broward product-approval scopes" },
+      { title: "Coastal single-family", body: "impact openings and elevated floors where noted" },
+    ],
+  },
+  steps: {
+    title: "How Remote Estimating Works for Florida Contractors",
+    intro: "Three steps take a Florida plan set from upload to a bid-ready number.",
+    items: [
+      { title: "Upload and get your quote", body: "Send PDF or DWG plans with the project ZIP code and bid date. You get a free quote before work starts." },
+      { title: "Takeoff and Florida pricing", body: "We measure the drawings and price material and labor with ZIP-code rates. Wind, flood, and HVHZ notes are followed when the set includes them." },
+      { title: "Check and deliver", body: "A second estimator checks quantities and totals. You receive Excel and PDF files ready for bid day." },
+    ],
+    prompt: "Ready for a Florida number? Upload your plans for a free quote.",
+    cta: "Get My Florida Estimate",
+  },
+  start: {
+    title: "What We Need to Start a Florida Estimate",
+    intro: "Send what you have. The quote confirms what can be measured.",
+    drawingsLabel: "Drawings and specs",
+    drawings: ["Plan set for the trades you want priced (PDF or DWG)", "Specifications, schedules, and addenda", "Wind, flood, or HVHZ product notes when they affect scope"],
+    detailsLabel: "Project details",
+    details: ["Florida ZIP code and bid due date", "County, and any federal wage schedule", "Your material quotes or labor rates, if you want them used"],
+  },
+  pricing: {
+    title: "Florida Pricing and Turnaround",
+    intro: "You see the price first. Most estimates arrive in 24 to 48 hours.",
+    columns: ["What affects your quote", "Why it matters"],
+    items: [
+      { title: "Sheet count and trades", body: "more scope means more measuring time" },
+      { title: "Plan completeness", body: "wind and product notes move faster when included" },
+      { title: "HVHZ or flood scope", body: "extra product lines add measuring time" },
+      { title: "Bid due date", body: "tell us when you upload" },
+    ],
+  },
+  nearby: {
+    title: "Nearby States Contractors Also Search",
+    intro: "Working across state lines? These markets often share crews and suppliers with Florida.",
+    items: ["Georgia", "Alabama", "South Carolina", "Jacksonville to Savannah work", "Panhandle to Mobile work", "Orlando to Atlanta corridor work"],
+  },
+  faq: {
+    title: "Florida Construction Estimating FAQs",
+    items: [
+      { question: "Do you have a Florida office for construction estimating services?", answer: "No. Construction estimating services Florida contractors order are delivered online. ZIP-code pricing builds in local labor and material rates, so you do not need a local office." },
+      { question: "How much do construction estimating services cost in Florida?", answer: "Cost depends on sheet count, trades, plan completeness, and your deadline. Construction Estimations gives you a free quote before any work starts. The quote is free. The estimate is priced." },
+      { question: "How long does a Florida takeoff take?", answer: "Most Florida estimates are delivered in 24 to 48 hours. HVHZ sets or incomplete wind notes can take longer, so share your bid due date when you upload." },
+      { question: "Do you price Miami-Dade HVHZ products?", answer: "Yes, when the drawings are in the High-Velocity Hurricane Zone and the product notes are on the set. Those lines stay separate from inland opening pricing." },
+      { question: "Can Orlando and Miami contractors use the same workflow?", answer: "Yes. Upload the plan set with the project ZIP code. Wind, flood, and HVHZ rules are applied only when the documents show them." },
+      { question: "Do you hold a Florida contractor license or pull permits?", answer: "No. We estimate from documents. We do not pull permits or hold a DBPR certified or registered license for you." },
+      { question: "What file types can Florida contractors upload?", answer: "PDF is most common. DWG and image plans are accepted when they are readable. Include specs, product approvals, and addenda when you have them." },
+    ],
+  },
+  finalCta: {
+    title: "Get Your Florida Bid Numbers Before the Deadline",
+    body: "Upload your plans to Construction Estimations for construction estimating services Florida teams use with a free quote before work starts.",
+    primaryCta: "Upload Florida Plans",
+    secondaryCta: "Request My Free Quote",
+    note: "NDA on request. Approve only if the quote fits.",
+  },
+} as const;

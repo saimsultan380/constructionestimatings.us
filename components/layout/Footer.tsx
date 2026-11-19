@@ -58,7 +58,17 @@ export function Footer() {
         </div>
 
         <div>
-          <p className="font-heading text-base font-semibold text-brand-strong">Contact</p>
+          <p className="font-heading text-base font-semibold text-brand-strong">Areas</p>
+          <ul className="mt-4 space-y-2.5">
+            {homepage.footer.areas.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href} className="text-sm text-ink hover:text-brand-strong hover:underline">
+                  {item.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 font-heading text-base font-semibold text-brand-strong">Contact</p>
           <ul className="mt-4 space-y-2.5 text-sm">
             {phone ? (
               <li className="[&_a]:text-ink [&_a]:hover:text-brand-strong">

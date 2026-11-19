@@ -1,0 +1,133 @@
+export const colorado = {
+  seo: {
+    title: "Construction Estimating Services Colorado | Free Quote",
+    description:
+      "Construction estimating services Colorado contractors use for takeoffs and bids. Upload plans, get a free quote, and ZIP-code pricing in 24 to 48 hours.",
+    path: "/colorado-construction-estimating-services/",
+  },
+  hero: {
+    title: "Construction Estimating Services Colorado Contractors Use for Bid Day",
+    body: "Quantities and prices are measured from your drawings with Colorado ZIP-code labor and material rates. Contractors across Denver, Colorado Springs, Boulder, Fort Collins, and the mountain towns upload plans, get a free quote first, and receive an itemized estimate in 24 to 48 hours.",
+    stats: [
+      { value: "24 to 48 hrs", label: "typical turnaround" },
+      { value: "ZIP rates", label: "priced to your Colorado market" },
+      { value: "All metros", label: "served remotely statewide" },
+      { value: "$0", label: "quote before work starts" },
+    ],
+    primaryCta: "Upload Colorado Plans",
+    secondaryCta: "Get a Free Quote",
+    note: "Free quote first. NDA on request. Approve only if it fits. We estimate from plans. We do not pull permits, register with a Colorado city, or claim a Colorado office.",
+  },
+  answer: {
+    title: "Quick Answer: How Construction Estimating Services Colorado Bids Get Priced",
+    body: "Construction estimating services Colorado contractors order start with a digital takeoff, then apply local rates for the project ZIP code. Snow load, energy zone, and local code notes are followed when the documents show them. You get a free quote first, then Excel and PDF files.",
+  },
+  snapshot: {
+    title: "Colorado Estimating Snapshot: Local Codes, Snow, and Altitude",
+    intro: "Colorado has no single statewide building code, so the city edition and the snow load drive the estimate.",
+    columns: ["Factor", "What applies in Colorado", "Why it matters for estimates"],
+    rows: [
+      ["Building codes", "Colorado has no statewide building code for most private work. Cities and counties adopt editions locally. State rules cover schools, health facilities, and some state buildings.", "Confirm the jurisdiction edition before locking assemblies"],
+      ["Energy", "Local energy codes vary. When a jurisdiction updates its code, state rules point it toward the current model low-energy code.", "Insulation and HVAC lines follow the energy notes on the set"],
+      ["Climate and snow", "Front Range counties are often IECC zone 5. Mountain counties reach zones 6 and 7, with high ground snow loads.", "Roof structure, insulation, and heating loads change with elevation"],
+      ["Frost", "Frost depth is deep compared with the South and is set by local design data.", "Footing depth follows the structural and geotech notes"],
+      ["Soils", "Expansive soils are common along the Front Range.", "Foundation quantities follow the geotech report you upload"],
+      ["Licensing", "Colorado has no statewide general contractor license. Cities and counties set their own registration rules.", "We estimate from drawings. Local registration stays with the contractor"],
+      ["Prevailing wage", "Some Colorado public projects, including City and County of Denver work, require prevailing wage named in the bid.", "Send the wage schedule when the documents require it"],
+      ["Common project types", "Multifamily, data centers, aerospace and tech, mountain hospitality, schools, and infrastructure.", "Access and season change labor on mountain sites"],
+    ],
+  },
+  localImpact: {
+    title: "How Colorado Conditions Change a Construction Estimate",
+    intro: "A Denver pad and a mountain site do not share the same labor or snow assumptions.",
+    columns: ["Local factor", "What we adjust"],
+    rows: [
+      ["ZIP-code labor", "Crew rates follow the city and region, not a national average"],
+      ["Snow load", "Roof structure quantities follow the structural snow notes"],
+      ["Energy zone", "Insulation and HVAC follow the zone and local energy code shown"],
+      ["Expansive soils", "Foundation scope follows the geotech report"],
+      ["Mountain access", "Haul and season notes are listed when the documents call them out"],
+      ["Local wage schedules", "Used only when the bid documents require them"],
+    ],
+  },
+  services: {
+    title: "Construction Estimating Services Available for Colorado Projects",
+    intro: "Pick the service or trade page that matches the package you are bidding.",
+    groups: [
+      { label: "Project types", links: [{ title: "Commercial Estimating", href: "/commercial-estimating-service/" }, { title: "Residential Estimating", href: "/residential-estimating-services/" }, { title: "Industrial Estimating", href: "/industrial-estimating-services/" }, { title: "Renovation Estimating", href: "/renovation-estimating-services/" }] },
+      { label: "Takeoff and specialty", links: [{ title: "Construction Takeoff", href: "/construction-takeoff-services/" }, { title: "Blueprint Estimating", href: "/blueprint-estimating-services/" }, { title: "MEP Estimating", href: "/mep-estimating-services/" }, { title: "Xactimate Estimating", href: "/xactimate-estimating-services/" }] },
+      { label: "Trades often bid in Colorado", links: [{ title: "Concrete Estimating", href: "/concrete-estimating-services/" }, { title: "Electrical Estimating", href: "/electrical-estimating-services/" }, { title: "HVAC Estimating", href: "/hvac-estimating-services/" }, { title: "Plumbing Estimating", href: "/plumbing-estimating-services/" }, { title: "Roofing Estimating", href: "/roofing-estimating-services/" }, { title: "Sitework Estimating", href: "/sitework-estimating-services/" }] },
+    ],
+  },
+  cities: {
+    title: "Colorado Cities and Regions We Price Remotely",
+    intro: "Construction estimating services Colorado metros use the same remote workflow. City pages will link here as they publish.",
+    items: ["Denver", "Colorado Springs", "Aurora", "Fort Collins", "Boulder", "Lakewood", "Thornton", "Arvada", "Pueblo", "Greeley", "Broomfield", "Grand Junction"],
+  },
+  projects: {
+    title: "Project Types Common on Colorado Bid Lists",
+    intro: "Front Range growth and mountain work need different assumptions.",
+    groups: [
+      { title: "Multifamily", body: "podium and garden apartments on the Front Range" },
+      { title: "Data and industrial", body: "shells and site packages along the I-25 and I-70 corridors" },
+      { title: "Mountain hospitality", body: "snow-load roofs and seasonal access" },
+      { title: "Aerospace and tech", body: "offices, labs, and secure fit-outs" },
+      { title: "Schools and civic", body: "public packages with local code and wage notes" },
+      { title: "Custom residential", body: "foothill and mountain homes with deep frost lines" },
+    ],
+  },
+  steps: {
+    title: "How Remote Estimating Works for Colorado Contractors",
+    intro: "Three steps take a Colorado plan set from upload to a bid-ready number.",
+    items: [
+      { title: "Upload and get your quote", body: "Send PDF or DWG plans with the project ZIP code and bid date. You get a free quote before work starts." },
+      { title: "Takeoff and Colorado pricing", body: "We measure the drawings and price material and labor with ZIP-code rates. Snow load and geotech notes are followed when you include them." },
+      { title: "Check and deliver", body: "A second estimator checks quantities and totals. You receive Excel and PDF files ready for bid day." },
+    ],
+    prompt: "Ready for a Colorado number? Upload your plans for a free quote.",
+    cta: "Get My Colorado Estimate",
+  },
+  start: {
+    title: "What We Need to Start a Colorado Estimate",
+    intro: "Send what you have. The quote confirms what can be measured.",
+    drawingsLabel: "Drawings and specs",
+    drawings: ["Plan set for the trades you want priced (PDF or DWG)", "Specifications, schedules, and addenda", "Snow load, geotech, or energy notes when they affect scope"],
+    detailsLabel: "Project details",
+    details: ["Colorado ZIP code and bid due date", "Jurisdiction and any wage schedule", "Your material quotes or labor rates, if you want them used"],
+  },
+  pricing: {
+    title: "Colorado Pricing and Turnaround",
+    intro: "You see the price first. Most estimates arrive in 24 to 48 hours.",
+    columns: ["What affects your quote", "Why it matters"],
+    items: [
+      { title: "Sheet count and trades", body: "more scope means more measuring time" },
+      { title: "Plan completeness", body: "snow and geotech notes move faster when included" },
+      { title: "Local wage requirements", body: "wage tables add pricing checks when required" },
+      { title: "Bid due date", body: "tell us when you upload" },
+    ],
+  },
+  nearby: {
+    title: "Nearby States Contractors Also Search",
+    intro: "Working across state lines? These markets often share crews and suppliers with Colorado.",
+    items: ["Wyoming", "New Mexico", "Utah", "Kansas", "Cheyenne corridor work", "Santa Fe corridor work"],
+  },
+  faq: {
+    title: "Colorado Construction Estimating FAQs",
+    items: [
+      { question: "Do you have a Colorado office for construction estimating services?", answer: "No. Construction estimating services Colorado contractors order are delivered online. ZIP-code pricing builds in local labor and material rates, so you do not need a local office." },
+      { question: "How much do construction estimating services cost in Colorado?", answer: "Cost depends on sheet count, trades, plan completeness, and your deadline. Construction Estimations gives you a free quote before any work starts. The quote is free. The estimate is priced." },
+      { question: "How long does a Colorado takeoff take?", answer: "Most Colorado estimates are delivered in 24 to 48 hours. Large multi-trade sets or missing snow-load notes can take longer, so share your bid due date when you upload." },
+      { question: "Do you price Denver prevailing wage?", answer: "Yes, when the bid documents require it. Send the wage schedule, and those rates are used on the labor lines." },
+      { question: "Can Denver and mountain-town contractors use the same workflow?", answer: "Yes. Upload the plan set with the project ZIP code. Snow load and access notes are priced when the documents show them." },
+      { question: "Do you pull Colorado permits or hold a city contractor license?", answer: "No. We estimate from documents. We do not pull permits or register with a Colorado city for you." },
+      { question: "What file types can Colorado contractors upload?", answer: "PDF is most common. DWG and image plans are accepted when they are readable. Include specs, geotech, and addenda when you have them." },
+    ],
+  },
+  finalCta: {
+    title: "Get Your Colorado Bid Numbers Before the Deadline",
+    body: "Upload your plans to Construction Estimations for construction estimating services Colorado teams use with a free quote before work starts.",
+    primaryCta: "Upload Colorado Plans",
+    secondaryCta: "Request My Free Quote",
+    note: "NDA on request. Approve only if the quote fits.",
+  },
+} as const;

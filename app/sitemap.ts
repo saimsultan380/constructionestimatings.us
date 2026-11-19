@@ -202,6 +202,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: absoluteUrl("/texas-construction-estimating-services/"),
+      lastModified: "2026-11-19",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/california-construction-estimating-services/"),
+      lastModified: "2026-11-19",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/maryland-construction-estimating-services/"),
+      lastModified: "2026-11-19",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/georgia-construction-estimating-services/"),
+      lastModified: "2026-11-19",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/colorado-construction-estimating-services/"),
+      lastModified: "2026-11-19",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/illinois-construction-estimating-services/"),
+      lastModified: "2026-11-19",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/florida-construction-estimating-services/"),
+      lastModified: "2026-11-19",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: absoluteUrl("/about/"),
       lastModified: "2026-11-07",
       changeFrequency: "monthly",

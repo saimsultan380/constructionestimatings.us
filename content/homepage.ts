@@ -514,6 +514,12 @@ export const homepage = {
       { title: "Drywall Estimating", href: "/drywall-estimating-services/" },
       { title: "Sitework Estimating", href: "/sitework-estimating-services/" },
     ],
+    areas: [
+      { title: "Texas Estimating", href: "/texas-construction-estimating-services/" },
+      { title: "California Estimating", href: "/california-construction-estimating-services/" },
+      { title: "Florida Estimating", href: "/florida-construction-estimating-services/" },
+      { title: "Georgia Estimating", href: "/georgia-construction-estimating-services/" },
+    ],
   },
   topBar: {
     nda: "NDA on request",
@@ -651,10 +657,20 @@ export const homepage = {
       href: "/sitework-estimating-services/",
     },
   ],
+  publishedAreas: [
+    { title: "Texas Construction Estimating", href: "/texas-construction-estimating-services/" },
+    { title: "California Construction Estimating", href: "/california-construction-estimating-services/" },
+    { title: "Maryland Construction Estimating", href: "/maryland-construction-estimating-services/" },
+    { title: "Georgia Construction Estimating", href: "/georgia-construction-estimating-services/" },
+    { title: "Colorado Construction Estimating", href: "/colorado-construction-estimating-services/" },
+    { title: "Illinois Construction Estimating", href: "/illinois-construction-estimating-services/" },
+    { title: "Florida Construction Estimating", href: "/florida-construction-estimating-services/" },
+  ],
   nav: [
     { href: "/", label: "Home" },
     { href: "/commercial-estimating-service/", label: "Services", menu: "services" as const },
     { href: "/concrete-estimating-services/", label: "Trades", menu: "trades" as const },
+    { href: "/texas-construction-estimating-services/", label: "Areas", menu: "areas" as const },
     { href: "/about/", label: "About" },
     { href: "/contact/", label: "Contact" },
   ],

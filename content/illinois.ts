@@ -1,0 +1,133 @@
+export const illinois = {
+  seo: {
+    title: "Construction Estimating Services Illinois | Free Quote",
+    description:
+      "Construction estimating services Illinois contractors use for takeoffs and bids. Upload plans, get a free quote, and ZIP-code pricing in 24 to 48 hours.",
+    path: "/illinois-construction-estimating-services/",
+  },
+  hero: {
+    title: "Construction Estimating Services Illinois Contractors Use for Bid Day",
+    body: "Quantities and prices are measured from your drawings with Illinois ZIP-code labor and material rates. Contractors across Chicago, the suburbs, Rockford, Peoria, and Springfield upload plans, get a free quote first, and receive an itemized estimate in 24 to 48 hours.",
+    stats: [
+      { value: "24 to 48 hrs", label: "typical turnaround" },
+      { value: "ZIP rates", label: "priced to your Illinois market" },
+      { value: "All metros", label: "served remotely statewide" },
+      { value: "$0", label: "quote before work starts" },
+    ],
+    primaryCta: "Upload Illinois Plans",
+    secondaryCta: "Get a Free Quote",
+    note: "Free quote first. NDA on request. Approve only if it fits. We estimate from plans. We do not pull permits, hold an Illinois trade license, or claim an Illinois office.",
+  },
+  answer: {
+    title: "Quick Answer: How Construction Estimating Services Illinois Bids Get Priced",
+    body: "Construction estimating services Illinois contractors order start with a digital takeoff, then apply local rates for the project ZIP code. Chicago code notes and public wage schedules are used when the documents require them. You get a free quote first, then Excel and PDF files.",
+  },
+  snapshot: {
+    title: "Illinois Estimating Snapshot: Energy Code, Chicago Rules, and Wages",
+    intro: "Illinois energy rules, Chicago amendments, and prevailing wage change the estimate.",
+    columns: ["Factor", "What applies in Illinois", "Why it matters for estimates"],
+    rows: [
+      ["Energy code", "The Illinois Energy Conservation Code is based on the 2021 IECC and took effect January 1, 2024. Locals may not set a weaker or stronger residential energy standard than the state code.", "Insulation and HVAC lines follow the 2021-based state energy rules unless the set says otherwise"],
+      ["Climate zones", "Illinois spans IECC zones 4 and 5. Northern Illinois, including Chicago, is generally zone 5.", "Envelope quantities follow the zone on the energy notes"],
+      ["Chicago building code", "The City of Chicago adopts its own building code amendments. Suburban codes follow other editions.", "City of Chicago sheets need the Chicago notes, not a generic IBC assumption"],
+      ["Frost and wind", "Frost depth is significant. Lake-effect wind and snow show up on Chicago and North Shore roofs.", "Footing depth and roof structure follow the structural notes"],
+      ["Licensing", "Illinois does not license general contractors statewide. Plumbers and roofers do need state licenses. Chicago and other cities register contractors locally.", "We estimate from drawings. Licenses stay with the contractor"],
+      ["Prevailing wage", "The Illinois Prevailing Wage Act requires prevailing wage on public works. Rates are set by locality and trade.", "Send the wage schedule with public bids"],
+      ["Permitting", "Chicago uses its own permit process. Other cities and counties administer their adopted codes.", "Missing city amendments slow the takeoff"],
+      ["Common project types", "High-rise and mid-rise, healthcare, schools, logistics, data centers, and industrial work.", "Union wage and city rules show up often on Chicago sets"],
+    ],
+  },
+  localImpact: {
+    title: "How Illinois Conditions Change a Construction Estimate",
+    intro: "A Loop high-rise and a downstate warehouse do not share the same labor assumptions.",
+    columns: ["Local factor", "What we adjust"],
+    rows: [
+      ["ZIP-code labor", "Crew rates follow the city and region, not a national average"],
+      ["Chicago amendments", "City-specific assemblies are used only when the sheets show them"],
+      ["Energy zone", "Insulation and HVAC follow zone 4 or 5 as shown"],
+      ["Frost depth", "Foundation scope follows the structural notes"],
+      ["Public wage schedules", "Illinois prevailing wage is used when the bid requires it"],
+      ["Material quotes", "Supplier pricing for the metro when you send quotes"],
+    ],
+  },
+  services: {
+    title: "Construction Estimating Services Available for Illinois Projects",
+    intro: "Pick the service or trade page that matches the package you are bidding.",
+    groups: [
+      { label: "Project types", links: [{ title: "Commercial Estimating", href: "/commercial-estimating-service/" }, { title: "Residential Estimating", href: "/residential-estimating-services/" }, { title: "Industrial Estimating", href: "/industrial-estimating-services/" }, { title: "Renovation Estimating", href: "/renovation-estimating-services/" }] },
+      { label: "Takeoff and specialty", links: [{ title: "Construction Takeoff", href: "/construction-takeoff-services/" }, { title: "Blueprint Estimating", href: "/blueprint-estimating-services/" }, { title: "MEP Estimating", href: "/mep-estimating-services/" }, { title: "Xactimate Estimating", href: "/xactimate-estimating-services/" }] },
+      { label: "Trades often bid in Illinois", links: [{ title: "Concrete Estimating", href: "/concrete-estimating-services/" }, { title: "Electrical Estimating", href: "/electrical-estimating-services/" }, { title: "HVAC Estimating", href: "/hvac-estimating-services/" }, { title: "Plumbing Estimating", href: "/plumbing-estimating-services/" }, { title: "Roofing Estimating", href: "/roofing-estimating-services/" }, { title: "Sitework Estimating", href: "/sitework-estimating-services/" }] },
+    ],
+  },
+  cities: {
+    title: "Illinois Cities and Regions We Price Remotely",
+    intro: "Construction estimating services Illinois metros use the same remote workflow. City pages will link here as they publish.",
+    items: ["Chicago", "Aurora", "Naperville", "Joliet", "Rockford", "Springfield", "Elgin", "Peoria", "Champaign", "Waukegan", "Cicero", "Bloomington"],
+  },
+  projects: {
+    title: "Project Types Common on Illinois Bid Lists",
+    intro: "Chicago density and downstate industrial work need different sheets.",
+    groups: [
+      { title: "High-rise and mid-rise", body: "Chicago cores, podiums, and renovations" },
+      { title: "Healthcare and labs", body: "hospitals, clinics, and research fit-outs" },
+      { title: "Schools and civic", body: "public packages with prevailing wage" },
+      { title: "Logistics", body: "intermodal and warehouse shells" },
+      { title: "Industrial", body: "plants and process support spaces" },
+      { title: "Suburban multifamily", body: "garden and mid-rise apartments" },
+    ],
+  },
+  steps: {
+    title: "How Remote Estimating Works for Illinois Contractors",
+    intro: "Three steps take an Illinois plan set from upload to a bid-ready number.",
+    items: [
+      { title: "Upload and get your quote", body: "Send PDF or DWG plans with the project ZIP code and bid date. You get a free quote before work starts." },
+      { title: "Takeoff and Illinois pricing", body: "We measure the drawings and price material and labor with ZIP-code rates. Prevailing wage is used when your documents require it." },
+      { title: "Check and deliver", body: "A second estimator checks quantities and totals. You receive Excel and PDF files ready for bid day." },
+    ],
+    prompt: "Ready for an Illinois number? Upload your plans for a free quote.",
+    cta: "Get My Illinois Estimate",
+  },
+  start: {
+    title: "What We Need to Start an Illinois Estimate",
+    intro: "Send what you have. The quote confirms what can be measured.",
+    drawingsLabel: "Drawings and specs",
+    drawings: ["Plan set for the trades you want priced (PDF or DWG)", "Specifications, schedules, and addenda", "Chicago amendments or wage schedules when they apply"],
+    detailsLabel: "Project details",
+    details: ["Illinois ZIP code and bid due date", "Private or public work, and any wage schedule", "Your material quotes or labor rates, if you want them used"],
+  },
+  pricing: {
+    title: "Illinois Pricing and Turnaround",
+    intro: "You see the price first. Most estimates arrive in 24 to 48 hours.",
+    columns: ["What affects your quote", "Why it matters"],
+    items: [
+      { title: "Sheet count and trades", body: "more scope means more measuring time" },
+      { title: "Plan completeness", body: "city amendments move faster when included" },
+      { title: "Public wage requirements", body: "Illinois prevailing wage adds pricing checks when required" },
+      { title: "Bid due date", body: "tell us when you upload" },
+    ],
+  },
+  nearby: {
+    title: "Nearby States Contractors Also Search",
+    intro: "Working across state lines? These markets often share crews and suppliers with Illinois.",
+    items: ["Indiana", "Wisconsin", "Missouri", "Iowa", "Northwest Indiana work", "St. Louis metro work"],
+  },
+  faq: {
+    title: "Illinois Construction Estimating FAQs",
+    items: [
+      { question: "Do you have an Illinois office for construction estimating services?", answer: "No. Construction estimating services Illinois contractors order are delivered online. ZIP-code pricing builds in local labor and material rates, so you do not need a local office." },
+      { question: "How much do construction estimating services cost in Illinois?", answer: "Cost depends on sheet count, trades, plan completeness, and your deadline. Construction Estimations gives you a free quote before any work starts. The quote is free. The estimate is priced." },
+      { question: "How long does an Illinois takeoff take?", answer: "Most Illinois estimates are delivered in 24 to 48 hours. Large Chicago sets or incomplete wage schedules can take longer, so share your bid due date when you upload." },
+      { question: "Do you price Illinois prevailing wage?", answer: "Yes, when the bid documents require it. The Illinois Prevailing Wage Act applies to public works. Send the schedule, and those rates are used on the labor lines." },
+      { question: "Can Chicago and downstate contractors use the same workflow?", answer: "Yes. Upload the plan set with the project ZIP code. Chicago amendments are followed when they are on the drawings." },
+      { question: "Do you hold Illinois trade licenses or pull permits?", answer: "No. We estimate from documents. We do not pull permits or hold plumber, roofer, or city registrations for you." },
+      { question: "What file types can Illinois contractors upload?", answer: "PDF is most common. DWG and image plans are accepted when they are readable. Include specs and addenda when you have them." },
+    ],
+  },
+  finalCta: {
+    title: "Get Your Illinois Bid Numbers Before the Deadline",
+    body: "Upload your plans to Construction Estimations for construction estimating services Illinois teams use with a free quote before work starts.",
+    primaryCta: "Upload Illinois Plans",
+    secondaryCta: "Request My Free Quote",
+    note: "NDA on request. Approve only if the quote fits.",
+  },
+} as const;

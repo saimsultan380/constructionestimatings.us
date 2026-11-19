@@ -1,0 +1,133 @@
+export const georgia = {
+  seo: {
+    title: "Construction Estimating Services Georgia | Free Quote",
+    description:
+      "Construction estimating services Georgia contractors use for takeoffs and bids. Upload plans, get a free quote, and ZIP-code pricing in 24 to 48 hours.",
+    path: "/georgia-construction-estimating-services/",
+  },
+  hero: {
+    title: "Construction Estimating Services Georgia Contractors Use for Bid Day",
+    body: "Quantities and prices are measured from your drawings with Georgia ZIP-code labor and material rates. Contractors across Atlanta, Savannah, Augusta, Columbus, and Macon upload plans, get a free quote first, and receive an itemized estimate in 24 to 48 hours.",
+    stats: [
+      { value: "24 to 48 hrs", label: "typical turnaround" },
+      { value: "ZIP rates", label: "priced to your Georgia market" },
+      { value: "All metros", label: "served remotely statewide" },
+      { value: "$0", label: "quote before work starts" },
+    ],
+    primaryCta: "Upload Georgia Plans",
+    secondaryCta: "Get a Free Quote",
+    note: "Free quote first. NDA on request. Approve only if it fits. We estimate from plans. We do not pull permits, hold a Georgia contractor license, or claim a Georgia office.",
+  },
+  answer: {
+    title: "Quick Answer: How Construction Estimating Services Georgia Bids Get Priced",
+    body: "Construction estimating services Georgia contractors order start with a digital takeoff, then apply local rates for the project ZIP code. State energy rules and coastal wind notes are followed when the documents show them. You get a free quote first, then Excel and PDF files.",
+  },
+  snapshot: {
+    title: "Georgia Estimating Snapshot: Energy Code, Coast Wind, and Licensing",
+    intro: "Georgia code, humidity, and coastal wind change what belongs on the estimate.",
+    columns: ["Factor", "What applies in Georgia", "Why it matters for estimates"],
+    rows: [
+      ["Energy code", "Georgia's statewide minimum energy code is based on the 2015 IECC, with an effective date of January 1, 2023. Locals may enforce stricter rules.", "Insulation and HVAC lines follow the edition the city is enforcing"],
+      ["Climate zones", "Georgia spans IECC zones 2, 3, and 4. South Georgia is warmer. North Georgia mountains are cooler.", "Envelope quantities change with the zone on the energy notes"],
+      ["Wind and coast", "Coastal counties, including the Savannah area, carry higher wind design than metro Atlanta.", "Roof, openings, and bracing follow the wind notes on the set"],
+      ["Seismic", "Most of Georgia is a low seismic region compared with the West Coast.", "Special seismic detailing is included only when the structural sheets require it"],
+      ["Licensing", "Georgia licenses residential and general contractors above the statutory project threshold, and licenses several specialty trades.", "We estimate from drawings. Licensing stays with the contractor"],
+      ["Prevailing wage", "Georgia does not have a broad state prevailing wage law. Federal projects still follow Davis-Bacon when the bid requires it.", "Use wage tables only when the documents name them"],
+      ["Permitting", "Cities and counties enforce the state minimum codes and adopt local administrative rules.", "Missing local notes slow the takeoff"],
+      ["Common project types", "Data centers, logistics, film and studio work, multifamily, healthcare, and schools around Atlanta and the coast.", "Trade mix and rates shift by metro"],
+    ],
+  },
+  localImpact: {
+    title: "How Georgia Conditions Change a Construction Estimate",
+    intro: "The same drawing set does not price the same in Atlanta and on the coast.",
+    columns: ["Local factor", "What we adjust"],
+    rows: [
+      ["ZIP-code labor", "Crew rates follow the city and region, not a national average"],
+      ["Energy zone assemblies", "Insulation and HVAC quantities follow the zone shown"],
+      ["Coastal wind", "Roof and opening extras stay on their own lines when noted"],
+      ["Humidity and envelope", "Moisture-protection quantities follow the details"],
+      ["Federal wage schedules", "Davis-Bacon rates are used only when required"],
+      ["Material quotes", "Supplier pricing for the metro when you send quotes"],
+    ],
+  },
+  services: {
+    title: "Construction Estimating Services Available for Georgia Projects",
+    intro: "Pick the service or trade page that matches the package you are bidding.",
+    groups: [
+      { label: "Project types", links: [{ title: "Commercial Estimating", href: "/commercial-estimating-service/" }, { title: "Residential Estimating", href: "/residential-estimating-services/" }, { title: "Industrial Estimating", href: "/industrial-estimating-services/" }, { title: "Renovation Estimating", href: "/renovation-estimating-services/" }] },
+      { label: "Takeoff and specialty", links: [{ title: "Construction Takeoff", href: "/construction-takeoff-services/" }, { title: "Blueprint Estimating", href: "/blueprint-estimating-services/" }, { title: "MEP Estimating", href: "/mep-estimating-services/" }, { title: "Xactimate Estimating", href: "/xactimate-estimating-services/" }] },
+      { label: "Trades often bid in Georgia", links: [{ title: "Concrete Estimating", href: "/concrete-estimating-services/" }, { title: "Electrical Estimating", href: "/electrical-estimating-services/" }, { title: "HVAC Estimating", href: "/hvac-estimating-services/" }, { title: "Plumbing Estimating", href: "/plumbing-estimating-services/" }, { title: "Roofing Estimating", href: "/roofing-estimating-services/" }, { title: "Sitework Estimating", href: "/sitework-estimating-services/" }] },
+    ],
+  },
+  cities: {
+    title: "Georgia Cities and Regions We Price Remotely",
+    intro: "Construction estimating services Georgia metros use the same remote workflow. City pages will link here as they publish.",
+    items: ["Atlanta", "Savannah", "Augusta", "Columbus", "Macon", "Athens", "Sandy Springs", "Roswell", "Albany", "Marietta", "Valdosta", "Warner Robins"],
+  },
+  projects: {
+    title: "Project Types Common on Georgia Bid Lists",
+    intro: "Atlanta growth and coastal work keep different scopes on the calendar.",
+    groups: [
+      { title: "Data centers and industrial", body: "shells, power, and site packages" },
+      { title: "Logistics", body: "distribution buildings along the interstates" },
+      { title: "Multifamily", body: "garden and mid-rise apartments in metro Atlanta" },
+      { title: "Healthcare and education", body: "hospitals, clinics, and school additions" },
+      { title: "Coastal commercial", body: "Savannah and coast work with wind notes" },
+      { title: "Production housing", body: "single-family on the growth edges" },
+    ],
+  },
+  steps: {
+    title: "How Remote Estimating Works for Georgia Contractors",
+    intro: "Three steps take a Georgia plan set from upload to a bid-ready number.",
+    items: [
+      { title: "Upload and get your quote", body: "Send PDF or DWG plans with the project ZIP code and bid date. You get a free quote before work starts." },
+      { title: "Takeoff and Georgia pricing", body: "We measure the drawings and price material and labor with ZIP-code rates. Coastal wind notes are followed when the set includes them." },
+      { title: "Check and deliver", body: "A second estimator checks quantities and totals. You receive Excel and PDF files ready for bid day." },
+    ],
+    prompt: "Ready for a Georgia number? Upload your plans for a free quote.",
+    cta: "Get My Georgia Estimate",
+  },
+  start: {
+    title: "What We Need to Start a Georgia Estimate",
+    intro: "Send what you have. The quote confirms what can be measured.",
+    drawingsLabel: "Drawings and specs",
+    drawings: ["Plan set for the trades you want priced (PDF or DWG)", "Specifications, schedules, and addenda", "Wind or energy notes when they affect scope"],
+    detailsLabel: "Project details",
+    details: ["Georgia ZIP code and bid due date", "Private or federal work, and any wage schedule", "Your material quotes or labor rates, if you want them used"],
+  },
+  pricing: {
+    title: "Georgia Pricing and Turnaround",
+    intro: "You see the price first. Most estimates arrive in 24 to 48 hours.",
+    columns: ["What affects your quote", "Why it matters"],
+    items: [
+      { title: "Sheet count and trades", body: "more scope means more measuring time" },
+      { title: "Plan completeness", body: "energy and wind notes move faster when included" },
+      { title: "Federal wage requirements", body: "Davis-Bacon tables add checks when required" },
+      { title: "Bid due date", body: "tell us when you upload" },
+    ],
+  },
+  nearby: {
+    title: "Nearby States Contractors Also Search",
+    intro: "Working across state lines? These markets often share crews and suppliers with Georgia.",
+    items: ["Florida", "Alabama", "South Carolina", "Tennessee", "Jacksonville corridor work", "Chattanooga corridor work"],
+  },
+  faq: {
+    title: "Georgia Construction Estimating FAQs",
+    items: [
+      { question: "Do you have a Georgia office for construction estimating services?", answer: "No. Construction estimating services Georgia contractors order are delivered online. ZIP-code pricing builds in local labor and material rates, so you do not need a local office." },
+      { question: "How much do construction estimating services cost in Georgia?", answer: "Cost depends on sheet count, trades, plan completeness, and your deadline. Construction Estimations gives you a free quote before any work starts. The quote is free. The estimate is priced." },
+      { question: "How long does a Georgia takeoff take?", answer: "Most Georgia estimates are delivered in 24 to 48 hours. Large multi-trade sets or incomplete drawings can take longer, so share your bid due date when you upload." },
+      { question: "Do you price prevailing wage in Georgia?", answer: "Only when the bid documents require it, usually on federal work. Georgia does not have a broad state prevailing wage law." },
+      { question: "Can Atlanta and Savannah contractors use the same workflow?", answer: "Yes. Upload the plan set with the project ZIP code. Wind and energy notes on the Savannah set are priced when they are shown." },
+      { question: "Do you hold a Georgia contractor license or pull permits?", answer: "No. We estimate from documents. We do not pull permits or hold a Georgia contractor license for you." },
+      { question: "What file types can Georgia contractors upload?", answer: "PDF is most common. DWG and image plans are accepted when they are readable. Include specs and addenda when you have them." },
+    ],
+  },
+  finalCta: {
+    title: "Get Your Georgia Bid Numbers Before the Deadline",
+    body: "Upload your plans to Construction Estimations for construction estimating services Georgia teams use with a free quote before work starts.",
+    primaryCta: "Upload Georgia Plans",
+    secondaryCta: "Request My Free Quote",
+    note: "NDA on request. Approve only if the quote fits.",
+  },
+} as const;
